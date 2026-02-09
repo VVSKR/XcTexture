@@ -1,0 +1,461 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/vovaskr/Library/Caches/org.carthage.CarthageKit/DerivedData/26.1.1_17B100/PINCache/3.0.4/Build/Products/Release-iphonesimulator/PINCache.framework/PINCache'
+relocations:
+  - { offset: 0x89CA0, size: 0x8, addend: 0x0, symName: _PINCacheVersionString, symObjAddr: 0x0, symBinAddr: 0xF6C0, symSize: 0x0 }
+  - { offset: 0x89CD5, size: 0x8, addend: 0x0, symName: _PINCacheVersionNumber, symObjAddr: 0x30, symBinAddr: 0xF6F0, symSize: 0x0 }
+  - { offset: 0x89D12, size: 0x8, addend: 0x0, symName: '-[PINCache init]', symObjAddr: 0x0, symBinAddr: 0xC58, symSize: 0x41 }
+  - { offset: 0x89D25, size: 0x8, addend: 0x0, symName: '+[PINCache sharedCache]', symObjAddr: 0x3AD, symBinAddr: 0x1005, symSize: 0x22 }
+  - { offset: 0x89D4F, size: 0x8, addend: 0x0, symName: _sharedCache.cache, symObjAddr: 0x100B0, symBinAddr: 0x179D0, symSize: 0x0 }
+  - { offset: 0x89D65, size: 0x8, addend: 0x0, symName: _sharedCache.predicate, symObjAddr: 0x100B8, symBinAddr: 0x179D8, symSize: 0x0 }
+  - { offset: 0x8A1CF, size: 0x8, addend: 0x0, symName: '-[PINCache init]', symObjAddr: 0x0, symBinAddr: 0xC58, symSize: 0x41 }
+  - { offset: 0x8A20E, size: 0x8, addend: 0x0, symName: '-[PINCache initWithName:]', symObjAddr: 0x41, symBinAddr: 0xC99, symSize: 0x9C }
+  - { offset: 0x8A2FC, size: 0x8, addend: 0x0, symName: '-[PINCache initWithName:rootPath:]', symObjAddr: 0xDD, symBinAddr: 0xD35, symSize: 0x18 }
+  - { offset: 0x8A380, size: 0x8, addend: 0x0, symName: '-[PINCache initWithName:rootPath:serializer:deserializer:]', symObjAddr: 0xF5, symBinAddr: 0xD4D, symSize: 0x22 }
+  - { offset: 0x8A42C, size: 0x8, addend: 0x0, symName: '-[PINCache initWithName:rootPath:serializer:deserializer:keyEncoder:keyDecoder:]', symObjAddr: 0x117, symBinAddr: 0xD6F, symSize: 0x2B }
+  - { offset: 0x8A4F6, size: 0x8, addend: 0x0, symName: '-[PINCache initWithName:rootPath:serializer:deserializer:keyEncoder:keyDecoder:ttlCache:]', symObjAddr: 0x142, symBinAddr: 0xD9A, symSize: 0x34 }
+  - { offset: 0x8A5CC, size: 0x8, addend: 0x0, symName: '-[PINCache initWithName:rootPath:serializer:deserializer:keyEncoder:keyDecoder:ttlCache:evictionStrategy:]', symObjAddr: 0x176, symBinAddr: 0xDCE, symSize: 0x1ED }
+  - { offset: 0x8A824, size: 0x8, addend: 0x0, symName: '-[PINCache description]', symObjAddr: 0x363, symBinAddr: 0xFBB, symSize: 0x4A }
+  - { offset: 0x8A89C, size: 0x8, addend: 0x0, symName: '+[PINCache sharedCache].cold.1', symObjAddr: 0x1CA6, symBinAddr: 0xF320, symSize: 0x18 }
+  - { offset: 0x8A8CA, size: 0x8, addend: 0x0, symName: '___23+[PINCache sharedCache]_block_invoke', symObjAddr: 0x3CF, symBinAddr: 0x1027, symSize: 0x3C }
+  - { offset: 0x8A909, size: 0x8, addend: 0x0, symName: '-[PINCache containsObjectForKeyAsync:completion:]', symObjAddr: 0x40B, symBinAddr: 0x1063, symSize: 0x110 }
+  - { offset: 0x8AA19, size: 0x8, addend: 0x0, symName: '___49-[PINCache containsObjectForKeyAsync:completion:]_block_invoke', symObjAddr: 0x51B, symBinAddr: 0x1173, symSize: 0x31 }
+  - { offset: 0x8AAAF, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0x54C, symBinAddr: 0x11A4, symSize: 0x44 }
+  - { offset: 0x8AAF0, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0x590, symBinAddr: 0x11E8, symSize: 0x2C }
+  - { offset: 0x8AB33, size: 0x8, addend: 0x0, symName: '-[PINCache objectForKeyAsync:completion:]', symObjAddr: 0x5BC, symBinAddr: 0x1214, symSize: 0x110 }
+  - { offset: 0x8AC43, size: 0x8, addend: 0x0, symName: '___41-[PINCache objectForKeyAsync:completion:]_block_invoke', symObjAddr: 0x6CC, symBinAddr: 0x1324, symSize: 0x83 }
+  - { offset: 0x8ACDC, size: 0x8, addend: 0x0, symName: '___41-[PINCache objectForKeyAsync:completion:]_block_invoke_2', symObjAddr: 0x74F, symBinAddr: 0x13A7, symSize: 0x195 }
+  - { offset: 0x8AE65, size: 0x8, addend: 0x0, symName: '___41-[PINCache objectForKeyAsync:completion:]_block_invoke_3', symObjAddr: 0x8E4, symBinAddr: 0x153C, symSize: 0x6 }
+  - { offset: 0x8AEA4, size: 0x8, addend: 0x0, symName: '___41-[PINCache objectForKeyAsync:completion:]_block_invoke_4', symObjAddr: 0x8EA, symBinAddr: 0x1542, symSize: 0x1F }
+  - { offset: 0x8AF1F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0x909, symBinAddr: 0x1561, symSize: 0x4B }
+  - { offset: 0x8AF6C, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0x954, symBinAddr: 0x15AC, symSize: 0x33 }
+  - { offset: 0x8AFBB, size: 0x8, addend: 0x0, symName: '___41-[PINCache objectForKeyAsync:completion:]_block_invoke.51', symObjAddr: 0x987, symBinAddr: 0x15DF, symSize: 0x10A }
+  - { offset: 0x8B10C, size: 0x8, addend: 0x0, symName: '___41-[PINCache objectForKeyAsync:completion:]_block_invoke_2.54', symObjAddr: 0xA91, symBinAddr: 0x16E9, symSize: 0x1F }
+  - { offset: 0x8B187, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0xAB0, symBinAddr: 0x1708, symSize: 0x30 }
+  - { offset: 0x8B1BC, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0xAE0, symBinAddr: 0x1738, symSize: 0x25 }
+  - { offset: 0x8B1F3, size: 0x8, addend: 0x0, symName: '-[PINCache setObjectAsync:forKey:completion:]', symObjAddr: 0xB05, symBinAddr: 0x175D, symSize: 0x18 }
+  - { offset: 0x8B283, size: 0x8, addend: 0x0, symName: '-[PINCache setObjectAsync:forKey:withAgeLimit:completion:]', symObjAddr: 0xB1D, symBinAddr: 0x1775, symSize: 0x1B }
+  - { offset: 0x8B329, size: 0x8, addend: 0x0, symName: '-[PINCache setObjectAsync:forKey:withCost:completion:]', symObjAddr: 0xB38, symBinAddr: 0x1790, symSize: 0x18 }
+  - { offset: 0x8B3C7, size: 0x8, addend: 0x0, symName: '-[PINCache setObjectAsync:forKey:withCost:ageLimit:completion:]', symObjAddr: 0xB50, symBinAddr: 0x17A8, symSize: 0x296 }
+  - { offset: 0x8B60C, size: 0x8, addend: 0x0, symName: '___63-[PINCache setObjectAsync:forKey:withCost:ageLimit:completion:]_block_invoke', symObjAddr: 0xDE6, symBinAddr: 0x1A3E, symSize: 0x2E }
+  - { offset: 0x8B697, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s, symObjAddr: 0xE14, symBinAddr: 0x1A6C, symSize: 0x2C }
+  - { offset: 0x8B6E4, size: 0x8, addend: 0x0, symName: '___63-[PINCache setObjectAsync:forKey:withCost:ageLimit:completion:]_block_invoke.70', symObjAddr: 0xE40, symBinAddr: 0x1A98, symSize: 0x2A }
+  - { offset: 0x8B75F, size: 0x8, addend: 0x0, symName: '___63-[PINCache setObjectAsync:forKey:withCost:ageLimit:completion:]_block_invoke.73', symObjAddr: 0xE6A, symBinAddr: 0x1AC2, symSize: 0x1F }
+  - { offset: 0x8B7DA, size: 0x8, addend: 0x0, symName: '-[PINCache removeObjectForKeyAsync:completion:]', symObjAddr: 0xE89, symBinAddr: 0x1AE1, symSize: 0x1F1 }
+  - { offset: 0x8B96F, size: 0x8, addend: 0x0, symName: '___47-[PINCache removeObjectForKeyAsync:completion:]_block_invoke', symObjAddr: 0x107A, symBinAddr: 0x1CD2, symSize: 0x1E }
+  - { offset: 0x8B9CA, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1098, symBinAddr: 0x1CF0, symSize: 0x25 }
+  - { offset: 0x8BA0B, size: 0x8, addend: 0x0, symName: '___47-[PINCache removeObjectForKeyAsync:completion:]_block_invoke.80', symObjAddr: 0x10BD, symBinAddr: 0x1D15, symSize: 0x1E }
+  - { offset: 0x8BA66, size: 0x8, addend: 0x0, symName: '___47-[PINCache removeObjectForKeyAsync:completion:]_block_invoke_2', symObjAddr: 0x10DB, symBinAddr: 0x1D33, symSize: 0x1D }
+  - { offset: 0x8BAD8, size: 0x8, addend: 0x0, symName: '-[PINCache removeAllObjectsAsync:]', symObjAddr: 0x10F8, symBinAddr: 0x1D50, symSize: 0x174 }
+  - { offset: 0x8BBDB, size: 0x8, addend: 0x0, symName: '___34-[PINCache removeAllObjectsAsync:]_block_invoke', symObjAddr: 0x126C, symBinAddr: 0x1EC4, symSize: 0x1A }
+  - { offset: 0x8BC26, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x1286, symBinAddr: 0x1EDE, symSize: 0xF }
+  - { offset: 0x8BC59, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x1295, symBinAddr: 0x1EED, symSize: 0xF }
+  - { offset: 0x8BC84, size: 0x8, addend: 0x0, symName: '___34-[PINCache removeAllObjectsAsync:]_block_invoke.83', symObjAddr: 0x12A4, symBinAddr: 0x1EFC, symSize: 0x1A }
+  - { offset: 0x8BCCF, size: 0x8, addend: 0x0, symName: '___34-[PINCache removeAllObjectsAsync:]_block_invoke_2', symObjAddr: 0x12BE, symBinAddr: 0x1F16, symSize: 0x13 }
+  - { offset: 0x8BD2A, size: 0x8, addend: 0x0, symName: '-[PINCache trimToDateAsync:completion:]', symObjAddr: 0x12D1, symBinAddr: 0x1F29, symSize: 0x1D3 }
+  - { offset: 0x8BE9D, size: 0x8, addend: 0x0, symName: '___39-[PINCache trimToDateAsync:completion:]_block_invoke', symObjAddr: 0x14A4, symBinAddr: 0x20FC, symSize: 0x1E }
+  - { offset: 0x8BEF8, size: 0x8, addend: 0x0, symName: '___39-[PINCache trimToDateAsync:completion:]_block_invoke_2', symObjAddr: 0x14C2, symBinAddr: 0x211A, symSize: 0x1E }
+  - { offset: 0x8BF53, size: 0x8, addend: 0x0, symName: '___39-[PINCache trimToDateAsync:completion:]_block_invoke_3', symObjAddr: 0x14E0, symBinAddr: 0x2138, symSize: 0x13 }
+  - { offset: 0x8BFAE, size: 0x8, addend: 0x0, symName: '-[PINCache removeExpiredObjectsAsync:]', symObjAddr: 0x14F3, symBinAddr: 0x214B, symSize: 0x174 }
+  - { offset: 0x8C0B4, size: 0x8, addend: 0x0, symName: '___38-[PINCache removeExpiredObjectsAsync:]_block_invoke', symObjAddr: 0x1667, symBinAddr: 0x22BF, symSize: 0x1A }
+  - { offset: 0x8C102, size: 0x8, addend: 0x0, symName: '___38-[PINCache removeExpiredObjectsAsync:]_block_invoke_2', symObjAddr: 0x1681, symBinAddr: 0x22D9, symSize: 0x1A }
+  - { offset: 0x8C150, size: 0x8, addend: 0x0, symName: '___38-[PINCache removeExpiredObjectsAsync:]_block_invoke_3', symObjAddr: 0x169B, symBinAddr: 0x22F3, symSize: 0x13 }
+  - { offset: 0x8C1AF, size: 0x8, addend: 0x0, symName: '-[PINCache diskByteCount]', symObjAddr: 0x16AE, symBinAddr: 0x2306, symSize: 0xA3 }
+  - { offset: 0x8C211, size: 0x8, addend: 0x0, symName: '___25-[PINCache diskByteCount]_block_invoke', symObjAddr: 0x1751, symBinAddr: 0x23A9, symSize: 0x2F }
+  - { offset: 0x8C275, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32r, symObjAddr: 0x1780, symBinAddr: 0x23D8, symSize: 0x17 }
+  - { offset: 0x8C29E, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32r, symObjAddr: 0x1797, symBinAddr: 0x23EF, symSize: 0x13 }
+  - { offset: 0x8C2BD, size: 0x8, addend: 0x0, symName: '-[PINCache containsObjectForKey:]', symObjAddr: 0x17AA, symBinAddr: 0x2402, symSize: 0x6A }
+  - { offset: 0x8C365, size: 0x8, addend: 0x0, symName: '-[PINCache objectForKey:]', symObjAddr: 0x1814, symBinAddr: 0x246C, symSize: 0xB9 }
+  - { offset: 0x8C428, size: 0x8, addend: 0x0, symName: '___25-[PINCache objectForKey:]_block_invoke', symObjAddr: 0x18CD, symBinAddr: 0x2525, symSize: 0x6 }
+  - { offset: 0x8C46B, size: 0x8, addend: 0x0, symName: '-[PINCache setObject:forKey:]', symObjAddr: 0x18D3, symBinAddr: 0x252B, symSize: 0x15 }
+  - { offset: 0x8C4E6, size: 0x8, addend: 0x0, symName: '-[PINCache setObject:forKey:withAgeLimit:]', symObjAddr: 0x18E8, symBinAddr: 0x2540, symSize: 0x15 }
+  - { offset: 0x8C578, size: 0x8, addend: 0x0, symName: '-[PINCache setObject:forKey:withCost:]', symObjAddr: 0x18FD, symBinAddr: 0x2555, symSize: 0x15 }
+  - { offset: 0x8C604, size: 0x8, addend: 0x0, symName: '-[PINCache setObject:forKey:withCost:ageLimit:]', symObjAddr: 0x1912, symBinAddr: 0x256A, symSize: 0xBA }
+  - { offset: 0x8C70B, size: 0x8, addend: 0x0, symName: '-[PINCache objectForKeyedSubscript:]', symObjAddr: 0x19CC, symBinAddr: 0x2624, symSize: 0x12 }
+  - { offset: 0x8C76D, size: 0x8, addend: 0x0, symName: '-[PINCache setObject:forKeyedSubscript:]', symObjAddr: 0x19DE, symBinAddr: 0x2636, symSize: 0x28 }
+  - { offset: 0x8C7D7, size: 0x8, addend: 0x0, symName: '-[PINCache removeObjectForKey:]', symObjAddr: 0x1A06, symBinAddr: 0x265E, symSize: 0x73 }
+  - { offset: 0x8C86A, size: 0x8, addend: 0x0, symName: '-[PINCache trimToDate:]', symObjAddr: 0x1A79, symBinAddr: 0x26D1, symSize: 0x73 }
+  - { offset: 0x8C8FD, size: 0x8, addend: 0x0, symName: '-[PINCache removeExpiredObjects]', symObjAddr: 0x1AEC, symBinAddr: 0x2744, symSize: 0x3B }
+  - { offset: 0x8C951, size: 0x8, addend: 0x0, symName: '-[PINCache removeAllObjects]', symObjAddr: 0x1B27, symBinAddr: 0x277F, symSize: 0x3B }
+  - { offset: 0x8C9A5, size: 0x8, addend: 0x0, symName: '-[PINCache maxConcurrentOperations]', symObjAddr: 0x1B62, symBinAddr: 0x27BA, symSize: 0x16 }
+  - { offset: 0x8C9E9, size: 0x8, addend: 0x0, symName: '-[PINCache setMaxConcurrentOperations:]', symObjAddr: 0x1B78, symBinAddr: 0x27D0, symSize: 0x16 }
+  - { offset: 0x8CA41, size: 0x8, addend: 0x0, symName: '-[PINCache diskCache]', symObjAddr: 0x1B8E, symBinAddr: 0x27E6, symSize: 0x14 }
+  - { offset: 0x8CA78, size: 0x8, addend: 0x0, symName: '-[PINCache memoryCache]', symObjAddr: 0x1BA2, symBinAddr: 0x27FA, symSize: 0x14 }
+  - { offset: 0x8CAAF, size: 0x8, addend: 0x0, symName: '-[PINCache name]', symObjAddr: 0x1BB6, symBinAddr: 0x280E, symSize: 0xA }
+  - { offset: 0x8CAE4, size: 0x8, addend: 0x0, symName: '-[PINCache setName:]', symObjAddr: 0x1BC0, symBinAddr: 0x2818, symSize: 0xF }
+  - { offset: 0x8CB23, size: 0x8, addend: 0x0, symName: '-[PINCache operationQueue]', symObjAddr: 0x1BCF, symBinAddr: 0x2827, symSize: 0xA }
+  - { offset: 0x8CB58, size: 0x8, addend: 0x0, symName: '-[PINCache setOperationQueue:]', symObjAddr: 0x1BD9, symBinAddr: 0x2831, symSize: 0x11 }
+  - { offset: 0x8CB99, size: 0x8, addend: 0x0, symName: '-[PINCache .cxx_destruct]', symObjAddr: 0x1BEA, symBinAddr: 0x2842, symSize: 0x3E }
+  - { offset: 0x8CBCC, size: 0x8, addend: 0x0, symName: '-[PINCache(Deprecated) containsObjectForKey:block:]', symObjAddr: 0x1C28, symBinAddr: 0x2880, symSize: 0x12 }
+  - { offset: 0x8CC41, size: 0x8, addend: 0x0, symName: '-[PINCache(Deprecated) objectForKey:block:]', symObjAddr: 0x1C3A, symBinAddr: 0x2892, symSize: 0x12 }
+  - { offset: 0x8CCB6, size: 0x8, addend: 0x0, symName: '-[PINCache(Deprecated) setObject:forKey:block:]', symObjAddr: 0x1C4C, symBinAddr: 0x28A4, symSize: 0x12 }
+  - { offset: 0x8CD42, size: 0x8, addend: 0x0, symName: '-[PINCache(Deprecated) setObject:forKey:withCost:block:]', symObjAddr: 0x1C5E, symBinAddr: 0x28B6, symSize: 0x12 }
+  - { offset: 0x8CDE5, size: 0x8, addend: 0x0, symName: '-[PINCache(Deprecated) removeObjectForKey:block:]', symObjAddr: 0x1C70, symBinAddr: 0x28C8, symSize: 0x12 }
+  - { offset: 0x8CE5A, size: 0x8, addend: 0x0, symName: '-[PINCache(Deprecated) trimToDate:block:]', symObjAddr: 0x1C82, symBinAddr: 0x28DA, symSize: 0x12 }
+  - { offset: 0x8CECF, size: 0x8, addend: 0x0, symName: '-[PINCache(Deprecated) removeAllObjects:]', symObjAddr: 0x1C94, symBinAddr: 0x28EC, symSize: 0x12 }
+  - { offset: 0x8DCD7, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache dealloc]', symObjAddr: 0x0, symBinAddr: 0x28FE, symSize: 0x81 }
+  - { offset: 0x8DCEF, size: 0x8, addend: 0x0, symName: '+[PINMemoryCache sharedCache]', symObjAddr: 0x3CD, symBinAddr: 0x2CCB, symSize: 0x22 }
+  - { offset: 0x8DD19, size: 0x8, addend: 0x0, symName: _sharedCache.cache, symObjAddr: 0x1C668, symBinAddr: 0x179E0, symSize: 0x0 }
+  - { offset: 0x8DD2F, size: 0x8, addend: 0x0, symName: _sharedCache.predicate, symObjAddr: 0x1C670, symBinAddr: 0x179E8, symSize: 0x0 }
+  - { offset: 0x8E158, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache dealloc]', symObjAddr: 0x0, symBinAddr: 0x28FE, symSize: 0x81 }
+  - { offset: 0x8E1FA, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache init]', symObjAddr: 0x81, symBinAddr: 0x297F, symSize: 0x5A }
+  - { offset: 0x8E265, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache initWithOperationQueue:]', symObjAddr: 0xDB, symBinAddr: 0x29D9, symSize: 0x1C }
+  - { offset: 0x8E2C9, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache initWithName:operationQueue:]', symObjAddr: 0xF7, symBinAddr: 0x29F5, symSize: 0x15 }
+  - { offset: 0x8E347, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache initWithName:operationQueue:ttlCache:]', symObjAddr: 0x10C, symBinAddr: 0x2A0A, symSize: 0x15 }
+  - { offset: 0x8E3E7, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache initWithName:operationQueue:ttlCache:evictionStrategy:]', symObjAddr: 0x121, symBinAddr: 0x2A1F, symSize: 0x2AC }
+  - { offset: 0x8E70A, size: 0x8, addend: 0x0, symName: '+[PINMemoryCache sharedCache].cold.1', symObjAddr: 0x41A5, symBinAddr: 0xF338, symSize: 0x18 }
+  - { offset: 0x8E738, size: 0x8, addend: 0x0, symName: '___29+[PINMemoryCache sharedCache]_block_invoke', symObjAddr: 0x3EF, symBinAddr: 0x2CED, symSize: 0x35 }
+  - { offset: 0x8E777, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache didReceiveMemoryWarningNotification:]', symObjAddr: 0x424, symBinAddr: 0x2D22, symSize: 0xC3 }
+  - { offset: 0x8E825, size: 0x8, addend: 0x0, symName: '___54-[PINMemoryCache didReceiveMemoryWarningNotification:]_block_invoke', symObjAddr: 0x4E7, symBinAddr: 0x2DE5, symSize: 0x63 }
+  - { offset: 0x8E8BB, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache didReceiveEnterBackgroundNotification:]', symObjAddr: 0x568, symBinAddr: 0x2E48, symSize: 0xB1 }
+  - { offset: 0x8E955, size: 0x8, addend: 0x0, symName: '___56-[PINMemoryCache didReceiveEnterBackgroundNotification:]_block_invoke', symObjAddr: 0x619, symBinAddr: 0x2EF9, symSize: 0x63 }
+  - { offset: 0x8E9EB, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache removeObjectAndExecuteBlocksForKey:]', symObjAddr: 0x67C, symBinAddr: 0x2F5C, symSize: 0x1A8 }
+  - { offset: 0x8EC43, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache trimMemoryToDate:]', symObjAddr: 0x824, symBinAddr: 0x3104, symSize: 0x106 }
+  - { offset: 0x8ED9A, size: 0x8, addend: 0x0, symName: '___35-[PINMemoryCache trimMemoryToDate:]_block_invoke', symObjAddr: 0x92A, symBinAddr: 0x320A, symSize: 0xD0 }
+  - { offset: 0x8EEE1, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache removeExpiredObjects]', symObjAddr: 0xA52, symBinAddr: 0x32DA, symSize: 0x316 }
+  - { offset: 0x8F12B, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache trimToCostLimit:]', symObjAddr: 0xD68, symBinAddr: 0x35F0, symSize: 0x224 }
+  - { offset: 0x8F2F1, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache trimToCostLimitByEvictionStrategy:]', symObjAddr: 0xF8C, symBinAddr: 0x3814, symSize: 0x326 }
+  - { offset: 0x8F5BE, size: 0x8, addend: 0x0, symName: '___52-[PINMemoryCache trimToCostLimitByEvictionStrategy:]_block_invoke', symObjAddr: 0x12B2, symBinAddr: 0x3B3A, symSize: 0x147 }
+  - { offset: 0x8F794, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache trimToAgeLimitRecursively]', symObjAddr: 0x1443, symBinAddr: 0x3C81, symSize: 0x11A }
+  - { offset: 0x8F90D, size: 0x8, addend: 0x0, symName: '___43-[PINMemoryCache trimToAgeLimitRecursively]_block_invoke', symObjAddr: 0x155D, symBinAddr: 0x3D9B, symSize: 0xCE }
+  - { offset: 0x8F9C4, size: 0x8, addend: 0x0, symName: '___43-[PINMemoryCache trimToAgeLimitRecursively]_block_invoke_2', symObjAddr: 0x162B, symBinAddr: 0x3E69, symSize: 0x16 }
+  - { offset: 0x8FA12, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache containsObjectForKeyAsync:completion:]', symObjAddr: 0x1641, symBinAddr: 0x3E7F, symSize: 0x10C }
+  - { offset: 0x8FB25, size: 0x8, addend: 0x0, symName: '___55-[PINMemoryCache containsObjectForKeyAsync:completion:]_block_invoke', symObjAddr: 0x174D, symBinAddr: 0x3F8B, symSize: 0x31 }
+  - { offset: 0x8FBC1, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache objectForKeyAsync:completion:]', symObjAddr: 0x17C2, symBinAddr: 0x3FBC, symSize: 0xFC }
+  - { offset: 0x8FCD6, size: 0x8, addend: 0x0, symName: '___47-[PINMemoryCache objectForKeyAsync:completion:]_block_invoke', symObjAddr: 0x18BE, symBinAddr: 0x40B8, symSize: 0x49 }
+  - { offset: 0x8FD7E, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setObjectAsync:forKey:completion:]', symObjAddr: 0x1907, symBinAddr: 0x4101, symSize: 0x18 }
+  - { offset: 0x8FE12, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setObjectAsync:forKey:withAgeLimit:completion:]', symObjAddr: 0x191F, symBinAddr: 0x4119, symSize: 0x1B }
+  - { offset: 0x8FEBD, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setObjectAsync:forKey:withCost:completion:]', symObjAddr: 0x193A, symBinAddr: 0x4134, symSize: 0x18 }
+  - { offset: 0x8FF60, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setObjectAsync:forKey:withCost:ageLimit:completion:]', symObjAddr: 0x1952, symBinAddr: 0x414C, symSize: 0x144 }
+  - { offset: 0x900E8, size: 0x8, addend: 0x0, symName: '___69-[PINMemoryCache setObjectAsync:forKey:withCost:ageLimit:completion:]_block_invoke', symObjAddr: 0x1A96, symBinAddr: 0x4290, symSize: 0x53 }
+  - { offset: 0x90197, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache removeObjectForKeyAsync:completion:]', symObjAddr: 0x1B67, symBinAddr: 0x42E3, symSize: 0xF6 }
+  - { offset: 0x902A2, size: 0x8, addend: 0x0, symName: '___53-[PINMemoryCache removeObjectForKeyAsync:completion:]_block_invoke', symObjAddr: 0x1C5D, symBinAddr: 0x43D9, symSize: 0x44 }
+  - { offset: 0x90325, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache trimToDateAsync:completion:]', symObjAddr: 0x1CA1, symBinAddr: 0x441D, symSize: 0xF6 }
+  - { offset: 0x90430, size: 0x8, addend: 0x0, symName: '___45-[PINMemoryCache trimToDateAsync:completion:]_block_invoke', symObjAddr: 0x1D97, symBinAddr: 0x4513, symSize: 0x3E }
+  - { offset: 0x904AC, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache trimToCostAsync:completion:]', symObjAddr: 0x1DD5, symBinAddr: 0x4551, symSize: 0xD2 }
+  - { offset: 0x90577, size: 0x8, addend: 0x0, symName: '___45-[PINMemoryCache trimToCostAsync:completion:]_block_invoke', symObjAddr: 0x1EA7, symBinAddr: 0x4623, symSize: 0x3E }
+  - { offset: 0x905F3, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache trimToCostByEvictionStrategyAsync:completion:]', symObjAddr: 0x1F15, symBinAddr: 0x4661, symSize: 0xD2 }
+  - { offset: 0x906BE, size: 0x8, addend: 0x0, symName: '___63-[PINMemoryCache trimToCostByEvictionStrategyAsync:completion:]_block_invoke', symObjAddr: 0x1FE7, symBinAddr: 0x4733, symSize: 0x3E }
+  - { offset: 0x9073A, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache removeExpiredObjectsAsync:]', symObjAddr: 0x2025, symBinAddr: 0x4771, symSize: 0xCC }
+  - { offset: 0x907F4, size: 0x8, addend: 0x0, symName: '___44-[PINMemoryCache removeExpiredObjectsAsync:]_block_invoke', symObjAddr: 0x20F1, symBinAddr: 0x483D, symSize: 0x3A }
+  - { offset: 0x9085F, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache removeAllObjectsAsync:]', symObjAddr: 0x212B, symBinAddr: 0x4877, symSize: 0xCC }
+  - { offset: 0x90919, size: 0x8, addend: 0x0, symName: '___40-[PINMemoryCache removeAllObjectsAsync:]_block_invoke', symObjAddr: 0x21F7, symBinAddr: 0x4943, symSize: 0x3A }
+  - { offset: 0x90984, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache enumerateObjectsWithBlockAsync:completionBlock:]', symObjAddr: 0x2231, symBinAddr: 0x497D, symSize: 0xF6 }
+  - { offset: 0x90A8F, size: 0x8, addend: 0x0, symName: '___65-[PINMemoryCache enumerateObjectsWithBlockAsync:completionBlock:]_block_invoke', symObjAddr: 0x2327, symBinAddr: 0x4A73, symSize: 0x3E }
+  - { offset: 0x90B0B, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b48b, symObjAddr: 0x2365, symBinAddr: 0x4AB1, symSize: 0x42 }
+  - { offset: 0x90B40, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache containsObjectForKey:]', symObjAddr: 0x23A7, symBinAddr: 0x4AF3, symSize: 0x99 }
+  - { offset: 0x90C09, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache objectForKey:]', symObjAddr: 0x2440, symBinAddr: 0x4B8C, symSize: 0x256 }
+  - { offset: 0x90E1D, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache objectForKeyedSubscript:]', symObjAddr: 0x2696, symBinAddr: 0x4DE2, symSize: 0x12 }
+  - { offset: 0x90E7F, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setObject:forKey:]', symObjAddr: 0x26A8, symBinAddr: 0x4DF4, symSize: 0x15 }
+  - { offset: 0x90EFA, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setObject:forKey:withAgeLimit:]', symObjAddr: 0x26BD, symBinAddr: 0x4E09, symSize: 0x15 }
+  - { offset: 0x90F8C, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setObject:forKeyedSubscript:]', symObjAddr: 0x26D2, symBinAddr: 0x4E1E, symSize: 0x28 }
+  - { offset: 0x90FF6, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setObject:forKey:withCost:]', symObjAddr: 0x26FA, symBinAddr: 0x4E46, symSize: 0x15 }
+  - { offset: 0x91082, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setObject:forKey:withCost:ageLimit:]', symObjAddr: 0x270F, symBinAddr: 0x4E5B, symSize: 0x303 }
+  - { offset: 0x91416, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache removeObjectForKey:]', symObjAddr: 0x2A12, symBinAddr: 0x515E, symSize: 0x19 }
+  - { offset: 0x91463, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache trimToDate:]', symObjAddr: 0x2A2B, symBinAddr: 0x5177, symSize: 0x99 }
+  - { offset: 0x9152C, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache trimToCost:]', symObjAddr: 0x2AC4, symBinAddr: 0x5210, symSize: 0x12 }
+  - { offset: 0x9158A, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache trimToCostByEvictionStrategy:]', symObjAddr: 0x2AD6, symBinAddr: 0x5222, symSize: 0x12 }
+  - { offset: 0x915E8, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache removeAllObjects]', symObjAddr: 0x2AE8, symBinAddr: 0x5234, symSize: 0xFD }
+  - { offset: 0x9176B, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache enumerateObjectsWithBlock:]', symObjAddr: 0x2BE5, symBinAddr: 0x5331, symSize: 0x341 }
+  - { offset: 0x919C4, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache willAddObjectBlock]', symObjAddr: 0x2F26, symBinAddr: 0x5672, symSize: 0x5D }
+  - { offset: 0x91A4A, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setWillAddObjectBlock:]', symObjAddr: 0x2F83, symBinAddr: 0x56CF, symSize: 0x79 }
+  - { offset: 0x91AFF, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache willRemoveObjectBlock]', symObjAddr: 0x2FFC, symBinAddr: 0x5748, symSize: 0x5D }
+  - { offset: 0x91B85, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setWillRemoveObjectBlock:]', symObjAddr: 0x3059, symBinAddr: 0x57A5, symSize: 0x79 }
+  - { offset: 0x91C3A, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache willRemoveAllObjectsBlock]', symObjAddr: 0x30D2, symBinAddr: 0x581E, symSize: 0x5D }
+  - { offset: 0x91CC0, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setWillRemoveAllObjectsBlock:]', symObjAddr: 0x312F, symBinAddr: 0x587B, symSize: 0x79 }
+  - { offset: 0x91D75, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache didAddObjectBlock]', symObjAddr: 0x31A8, symBinAddr: 0x58F4, symSize: 0x5D }
+  - { offset: 0x91DFB, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setDidAddObjectBlock:]', symObjAddr: 0x3205, symBinAddr: 0x5951, symSize: 0x79 }
+  - { offset: 0x91EB0, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache didRemoveObjectBlock]', symObjAddr: 0x327E, symBinAddr: 0x59CA, symSize: 0x5D }
+  - { offset: 0x91F36, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setDidRemoveObjectBlock:]', symObjAddr: 0x32DB, symBinAddr: 0x5A27, symSize: 0x79 }
+  - { offset: 0x91FEB, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache didRemoveAllObjectsBlock]', symObjAddr: 0x3354, symBinAddr: 0x5AA0, symSize: 0x5D }
+  - { offset: 0x92071, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setDidRemoveAllObjectsBlock:]', symObjAddr: 0x33B1, symBinAddr: 0x5AFD, symSize: 0x79 }
+  - { offset: 0x92126, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache didReceiveMemoryWarningBlock]', symObjAddr: 0x342A, symBinAddr: 0x5B76, symSize: 0x5D }
+  - { offset: 0x921AC, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setDidReceiveMemoryWarningBlock:]', symObjAddr: 0x3487, symBinAddr: 0x5BD3, symSize: 0x79 }
+  - { offset: 0x92261, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache didEnterBackgroundBlock]', symObjAddr: 0x3500, symBinAddr: 0x5C4C, symSize: 0x5D }
+  - { offset: 0x922E7, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setDidEnterBackgroundBlock:]', symObjAddr: 0x355D, symBinAddr: 0x5CA9, symSize: 0x79 }
+  - { offset: 0x9239C, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache ageLimit]', symObjAddr: 0x35D6, symBinAddr: 0x5D22, symSize: 0x44 }
+  - { offset: 0x9240E, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setAgeLimit:]', symObjAddr: 0x361A, symBinAddr: 0x5D66, symSize: 0x52 }
+  - { offset: 0x92488, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache costLimit]', symObjAddr: 0x366C, symBinAddr: 0x5DB8, symSize: 0x3D }
+  - { offset: 0x924FA, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setCostLimit:]', symObjAddr: 0x36A9, symBinAddr: 0x5DF5, symSize: 0x5F }
+  - { offset: 0x92574, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache totalCost]', symObjAddr: 0x3708, symBinAddr: 0x5E54, symSize: 0x3D }
+  - { offset: 0x925E6, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache isTTLCache]', symObjAddr: 0x3745, symBinAddr: 0x5E91, symSize: 0x3D }
+  - { offset: 0x92658, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache lock]', symObjAddr: 0x3782, symBinAddr: 0x5ECE, symSize: 0x11 }
+  - { offset: 0x926BA, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache unlock]', symObjAddr: 0x3793, symBinAddr: 0x5EDF, symSize: 0x11 }
+  - { offset: 0x9271C, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache name]', symObjAddr: 0x37A4, symBinAddr: 0x5EF0, symSize: 0xA }
+  - { offset: 0x92751, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setName:]', symObjAddr: 0x37AE, symBinAddr: 0x5EFA, symSize: 0xF }
+  - { offset: 0x92790, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache evictionStrategy]', symObjAddr: 0x37BD, symBinAddr: 0x5F09, symSize: 0xA }
+  - { offset: 0x927C5, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setEvictionStrategy:]', symObjAddr: 0x37C7, symBinAddr: 0x5F13, symSize: 0xA }
+  - { offset: 0x92802, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache removeAllObjectsOnMemoryWarning]', symObjAddr: 0x37D1, symBinAddr: 0x5F1D, symSize: 0xB }
+  - { offset: 0x92837, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setRemoveAllObjectsOnMemoryWarning:]', symObjAddr: 0x37DC, symBinAddr: 0x5F28, symSize: 0x9 }
+  - { offset: 0x92874, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache removeAllObjectsOnEnteringBackground]', symObjAddr: 0x37E5, symBinAddr: 0x5F31, symSize: 0xB }
+  - { offset: 0x928A9, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setRemoveAllObjectsOnEnteringBackground:]', symObjAddr: 0x37F0, symBinAddr: 0x5F3C, symSize: 0x9 }
+  - { offset: 0x928E6, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache operationQueue]', symObjAddr: 0x37F9, symBinAddr: 0x5F45, symSize: 0xA }
+  - { offset: 0x9291B, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setOperationQueue:]', symObjAddr: 0x3803, symBinAddr: 0x5F4F, symSize: 0x11 }
+  - { offset: 0x9295C, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache mutex]', symObjAddr: 0x3814, symBinAddr: 0x5F60, symSize: 0x34 }
+  - { offset: 0x92991, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setMutex:]', symObjAddr: 0x3848, symBinAddr: 0x5F94, symSize: 0x32 }
+  - { offset: 0x929CF, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache dictionary]', symObjAddr: 0x387A, symBinAddr: 0x5FC6, symSize: 0xD }
+  - { offset: 0x92A04, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setDictionary:]', symObjAddr: 0x3887, symBinAddr: 0x5FD3, symSize: 0x11 }
+  - { offset: 0x92A45, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache createdDates]', symObjAddr: 0x3898, symBinAddr: 0x5FE4, symSize: 0xD }
+  - { offset: 0x92A7A, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setCreatedDates:]', symObjAddr: 0x38A5, symBinAddr: 0x5FF1, symSize: 0x14 }
+  - { offset: 0x92ABB, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache accessDates]', symObjAddr: 0x38B9, symBinAddr: 0x6005, symSize: 0xD }
+  - { offset: 0x92AF0, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setAccessDates:]', symObjAddr: 0x38C6, symBinAddr: 0x6012, symSize: 0x14 }
+  - { offset: 0x92B31, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache costs]', symObjAddr: 0x38DA, symBinAddr: 0x6026, symSize: 0xD }
+  - { offset: 0x92B66, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setCosts:]', symObjAddr: 0x38E7, symBinAddr: 0x6033, symSize: 0x14 }
+  - { offset: 0x92BA7, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache ageLimits]', symObjAddr: 0x38FB, symBinAddr: 0x6047, symSize: 0xD }
+  - { offset: 0x92BDC, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setAgeLimits:]', symObjAddr: 0x3908, symBinAddr: 0x6054, symSize: 0x14 }
+  - { offset: 0x92C1D, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache accessCounts]', symObjAddr: 0x391C, symBinAddr: 0x6068, symSize: 0xD }
+  - { offset: 0x92C52, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache setAccessCounts:]', symObjAddr: 0x3929, symBinAddr: 0x6075, symSize: 0x14 }
+  - { offset: 0x92C93, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache .cxx_destruct]', symObjAddr: 0x393D, symBinAddr: 0x6089, symSize: 0xD4 }
+  - { offset: 0x92CC6, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) containsObjectForKey:block:]', symObjAddr: 0x3A11, symBinAddr: 0x615D, symSize: 0x12 }
+  - { offset: 0x92D3B, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) objectForKey:block:]', symObjAddr: 0x3A23, symBinAddr: 0x616F, symSize: 0x98 }
+  - { offset: 0x92DFB, size: 0x8, addend: 0x0, symName: '___49-[PINMemoryCache(Deprecated) objectForKey:block:]_block_invoke', symObjAddr: 0x3ABB, symBinAddr: 0x6207, symSize: 0x16 }
+  - { offset: 0x92E72, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x3AD1, symBinAddr: 0x621D, symSize: 0x17 }
+  - { offset: 0x92E9B, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) setObject:forKey:block:]', symObjAddr: 0x3AE8, symBinAddr: 0x6234, symSize: 0xA1 }
+  - { offset: 0x92F6C, size: 0x8, addend: 0x0, symName: '___53-[PINMemoryCache(Deprecated) setObject:forKey:block:]_block_invoke', symObjAddr: 0x3B89, symBinAddr: 0x62D5, symSize: 0x16 }
+  - { offset: 0x92FE3, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) setObject:forKey:withCost:block:]', symObjAddr: 0x3B9F, symBinAddr: 0x62EB, symSize: 0xA4 }
+  - { offset: 0x930CE, size: 0x8, addend: 0x0, symName: '___62-[PINMemoryCache(Deprecated) setObject:forKey:withCost:block:]_block_invoke', symObjAddr: 0x3C43, symBinAddr: 0x638F, symSize: 0x16 }
+  - { offset: 0x93145, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) removeObjectForKey:block:]', symObjAddr: 0x3C59, symBinAddr: 0x63A5, symSize: 0x98 }
+  - { offset: 0x93205, size: 0x8, addend: 0x0, symName: '___55-[PINMemoryCache(Deprecated) removeObjectForKey:block:]_block_invoke', symObjAddr: 0x3CF1, symBinAddr: 0x643D, symSize: 0x16 }
+  - { offset: 0x9327C, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) trimToDate:block:]', symObjAddr: 0x3D07, symBinAddr: 0x6453, symSize: 0x98 }
+  - { offset: 0x9333C, size: 0x8, addend: 0x0, symName: '___47-[PINMemoryCache(Deprecated) trimToDate:block:]_block_invoke', symObjAddr: 0x3D9F, symBinAddr: 0x64EB, symSize: 0x16 }
+  - { offset: 0x93395, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) trimToCost:block:]', symObjAddr: 0x3DB5, symBinAddr: 0x6501, symSize: 0x98 }
+  - { offset: 0x93455, size: 0x8, addend: 0x0, symName: '___47-[PINMemoryCache(Deprecated) trimToCost:block:]_block_invoke', symObjAddr: 0x3E4D, symBinAddr: 0x6599, symSize: 0x16 }
+  - { offset: 0x934AE, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) trimToCostByDate:block:]', symObjAddr: 0x3E63, symBinAddr: 0x65AF, symSize: 0x98 }
+  - { offset: 0x9356E, size: 0x8, addend: 0x0, symName: '___53-[PINMemoryCache(Deprecated) trimToCostByDate:block:]_block_invoke', symObjAddr: 0x3EFB, symBinAddr: 0x6647, symSize: 0x16 }
+  - { offset: 0x935C7, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) removeAllObjects:]', symObjAddr: 0x3F11, symBinAddr: 0x665D, symSize: 0x8E }
+  - { offset: 0x9366F, size: 0x8, addend: 0x0, symName: '___47-[PINMemoryCache(Deprecated) removeAllObjects:]_block_invoke', symObjAddr: 0x3F9F, symBinAddr: 0x66EB, symSize: 0x16 }
+  - { offset: 0x936C8, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) enumerateObjectsWithBlock:completionBlock:]', symObjAddr: 0x3FB5, symBinAddr: 0x6701, symSize: 0xDB }
+  - { offset: 0x937CB, size: 0x8, addend: 0x0, symName: '___72-[PINMemoryCache(Deprecated) enumerateObjectsWithBlock:completionBlock:]_block_invoke', symObjAddr: 0x4090, symBinAddr: 0x67DC, symSize: 0x9E }
+  - { offset: 0x93918, size: 0x8, addend: 0x0, symName: '___72-[PINMemoryCache(Deprecated) enumerateObjectsWithBlock:completionBlock:]_block_invoke.369', symObjAddr: 0x412E, symBinAddr: 0x687A, symSize: 0x16 }
+  - { offset: 0x93971, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) setTtlCache:]', symObjAddr: 0x4144, symBinAddr: 0x6890, symSize: 0x3D }
+  - { offset: 0x939D7, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) trimToCostByDate:]', symObjAddr: 0x4181, symBinAddr: 0x68CD, symSize: 0x12 }
+  - { offset: 0x93A35, size: 0x8, addend: 0x0, symName: '-[PINMemoryCache(Deprecated) trimToCostByDateAsync:completion:]', symObjAddr: 0x4193, symBinAddr: 0x68DF, symSize: 0x12 }
+  - { offset: 0x949B6, size: 0x8, addend: 0x0, symName: _PINDiskTrimmingSizeCoalescingBlock_block_invoke, symObjAddr: 0x0, symBinAddr: 0x68F1, symSize: 0x6F }
+  - { offset: 0x949DE, size: 0x8, addend: 0x0, symName: _PINDiskCacheAgeLimitAttributeName, symObjAddr: 0x90C0, symBinAddr: 0x179A8, symSize: 0x0 }
+  - { offset: 0x949FE, size: 0x8, addend: 0x0, symName: _PINDiskCacheAccessCountAttributeName, symObjAddr: 0x90C8, symBinAddr: 0x179B0, symSize: 0x0 }
+  - { offset: 0x94A14, size: 0x8, addend: 0x0, symName: _PINDiskCacheErrorDomain, symObjAddr: 0x93E0, symBinAddr: 0x13618, symSize: 0x0 }
+  - { offset: 0x94A34, size: 0x8, addend: 0x0, symName: _PINDiskCacheErrorReadFailureCodeKey, symObjAddr: 0x93E8, symBinAddr: 0x13620, symSize: 0x0 }
+  - { offset: 0x94A4F, size: 0x8, addend: 0x0, symName: _PINDiskCacheErrorWriteFailureCodeKey, symObjAddr: 0x93F0, symBinAddr: 0x13628, symSize: 0x0 }
+  - { offset: 0x94A65, size: 0x8, addend: 0x0, symName: _PINDiskCachePrefix, symObjAddr: 0x93F8, symBinAddr: 0x13630, symSize: 0x0 }
+  - { offset: 0x94A7B, size: 0x8, addend: 0x0, symName: _PINDiskCacheDefaultByteLimit, symObjAddr: 0x90D0, symBinAddr: 0x179B8, symSize: 0x0 }
+  - { offset: 0x94A98, size: 0x8, addend: 0x0, symName: _PINDiskCacheDefaultAgeLimit, symObjAddr: 0x90D8, symBinAddr: 0x179C0, symSize: 0x0 }
+  - { offset: 0x94AFA, size: 0x8, addend: 0x0, symName: '+[PINDiskCache sharedCache]', symObjAddr: 0x8FF, symBinAddr: 0x71D2, symSize: 0x22 }
+  - { offset: 0x94B26, size: 0x8, addend: 0x0, symName: _sharedCache.cache, symObjAddr: 0x31108, symBinAddr: 0x179F0, symSize: 0x0 }
+  - { offset: 0x94B3D, size: 0x8, addend: 0x0, symName: _sharedCache.predicate, symObjAddr: 0x31110, symBinAddr: 0x179F8, symSize: 0x0 }
+  - { offset: 0x95061, size: 0x8, addend: 0x0, symName: '+[PINDiskCache sharedTrashQueue]', symObjAddr: 0xECA, symBinAddr: 0x779D, symSize: 0x22 }
+  - { offset: 0x9508D, size: 0x8, addend: 0x0, symName: _sharedTrashQueue.trashQueue, symObjAddr: 0x31118, symBinAddr: 0x17A00, symSize: 0x0 }
+  - { offset: 0x950A4, size: 0x8, addend: 0x0, symName: _sharedTrashQueue.predicate, symObjAddr: 0x31120, symBinAddr: 0x17A08, symSize: 0x0 }
+  - { offset: 0x950DF, size: 0x8, addend: 0x0, symName: '+[PINDiskCache sharedLock]', symObjAddr: 0xFA2, symBinAddr: 0x7875, symSize: 0x22 }
+  - { offset: 0x9510B, size: 0x8, addend: 0x0, symName: _sharedLock.sharedLock, symObjAddr: 0x31128, symBinAddr: 0x17A10, symSize: 0x0 }
+  - { offset: 0x95122, size: 0x8, addend: 0x0, symName: _sharedLock.onceToken, symObjAddr: 0x31130, symBinAddr: 0x17A18, symSize: 0x0 }
+  - { offset: 0x95162, size: 0x8, addend: 0x0, symName: '+[PINDiskCache resourceKeys]', symObjAddr: 0x192F, symBinAddr: 0x8202, symSize: 0x22 }
+  - { offset: 0x9518E, size: 0x8, addend: 0x0, symName: _resourceKeys.resourceKeys, symObjAddr: 0x31140, symBinAddr: 0x17A28, symSize: 0x0 }
+  - { offset: 0x951A5, size: 0x8, addend: 0x0, symName: _resourceKeys.predicate, symObjAddr: 0x31148, symBinAddr: 0x17A30, symSize: 0x0 }
+  - { offset: 0x951F1, size: 0x8, addend: 0x0, symName: __sharedTrashURL, symObjAddr: 0x31138, symBinAddr: 0x17A20, symSize: 0x0 }
+  - { offset: 0x952A1, size: 0x8, addend: 0x0, symName: _PINDiskTrimmingSizeCoalescingBlock_block_invoke, symObjAddr: 0x0, symBinAddr: 0x68F1, symSize: 0x6F }
+  - { offset: 0x95377, size: 0x8, addend: 0x0, symName: _PINDiskTrimmingDateCoalescingBlock_block_invoke_2, symObjAddr: 0x6F, symBinAddr: 0x6960, symSize: 0x6F }
+  - { offset: 0x9544D, size: 0x8, addend: 0x0, symName: _PINDiskCacheFileSystemRepresentation, symObjAddr: 0xDE, symBinAddr: 0x69CF, symSize: 0x1A }
+  - { offset: 0x95478, size: 0x8, addend: 0x0, symName: '-[PINDiskCache dealloc]', symObjAddr: 0xF8, symBinAddr: 0x69E9, symSize: 0x55 }
+  - { offset: 0x95523, size: 0x8, addend: 0x0, symName: '-[PINDiskCache init]', symObjAddr: 0x14D, symBinAddr: 0x6A3E, symSize: 0x41 }
+  - { offset: 0x95562, size: 0x8, addend: 0x0, symName: '-[PINDiskCache initWithName:]', symObjAddr: 0x18E, symBinAddr: 0x6A7F, symSize: 0x9E }
+  - { offset: 0x9564B, size: 0x8, addend: 0x0, symName: '-[PINDiskCache initWithName:rootPath:]', symObjAddr: 0x22C, symBinAddr: 0x6B1D, symSize: 0x18 }
+  - { offset: 0x956CF, size: 0x8, addend: 0x0, symName: '-[PINDiskCache initWithName:rootPath:serializer:deserializer:]', symObjAddr: 0x244, symBinAddr: 0x6B35, symSize: 0xD7 }
+  - { offset: 0x9582D, size: 0x8, addend: 0x0, symName: '-[PINDiskCache initWithName:rootPath:serializer:deserializer:operationQueue:]', symObjAddr: 0x31B, symBinAddr: 0x6C0C, symSize: 0x40 }
+  - { offset: 0x958E0, size: 0x8, addend: 0x0, symName: '-[PINDiskCache initWithName:prefix:rootPath:serializer:deserializer:keyEncoder:keyDecoder:operationQueue:]', symObjAddr: 0x35B, symBinAddr: 0x6C4C, symSize: 0x34 }
+  - { offset: 0x959C8, size: 0x8, addend: 0x0, symName: '-[PINDiskCache initWithName:prefix:rootPath:serializer:deserializer:keyEncoder:keyDecoder:operationQueue:ttlCache:]', symObjAddr: 0x38F, symBinAddr: 0x6C80, symSize: 0x4A }
+  - { offset: 0x95AC0, size: 0x8, addend: 0x0, symName: '-[PINDiskCache initWithName:prefix:rootPath:serializer:deserializer:keyEncoder:keyDecoder:operationQueue:ttlCache:byteLimit:ageLimit:]', symObjAddr: 0x3D9, symBinAddr: 0x6CCA, symSize: 0x48 }
+  - { offset: 0x95BDF, size: 0x8, addend: 0x0, symName: '-[PINDiskCache initWithName:prefix:rootPath:serializer:deserializer:keyEncoder:keyDecoder:operationQueue:ttlCache:byteLimit:ageLimit:evictionStrategy:]', symObjAddr: 0x421, symBinAddr: 0x6D12, symSize: 0x424 }
+  - { offset: 0x96105, size: 0x8, addend: 0x0, symName: '___151-[PINDiskCache initWithName:prefix:rootPath:serializer:deserializer:keyEncoder:keyDecoder:operationQueue:ttlCache:byteLimit:ageLimit:evictionStrategy:]_block_invoke', symObjAddr: 0x845, symBinAddr: 0x7136, symSize: 0x4F }
+  - { offset: 0x96177, size: 0x8, addend: 0x0, symName: '-[PINDiskCache description]', symObjAddr: 0x8B2, symBinAddr: 0x7185, symSize: 0x4D }
+  - { offset: 0x961EA, size: 0x8, addend: 0x0, symName: '+[PINDiskCache sharedCache].cold.1', symObjAddr: 0x8C3A, symBinAddr: 0xF350, symSize: 0x18 }
+  - { offset: 0x96219, size: 0x8, addend: 0x0, symName: '___27+[PINDiskCache sharedCache]_block_invoke', symObjAddr: 0x921, symBinAddr: 0x71F4, symSize: 0x3C }
+  - { offset: 0x9625A, size: 0x8, addend: 0x0, symName: '+[PINDiskCache cacheURLWithRootPath:prefix:name:]', symObjAddr: 0x95D, symBinAddr: 0x7230, symSize: 0x127 }
+  - { offset: 0x963A6, size: 0x8, addend: 0x0, symName: '-[PINDiskCache encodedFileURLForKey:]', symObjAddr: 0xA84, symBinAddr: 0x7357, symSize: 0xA5 }
+  - { offset: 0x96450, size: 0x8, addend: 0x0, symName: '-[PINDiskCache keyForEncodedFileURL:]', symObjAddr: 0xB29, symBinAddr: 0x73FC, symSize: 0x62 }
+  - { offset: 0x964D6, size: 0x8, addend: 0x0, symName: '-[PINDiskCache encodedString:]', symObjAddr: 0xB8B, symBinAddr: 0x745E, symSize: 0x12 }
+  - { offset: 0x96534, size: 0x8, addend: 0x0, symName: '-[PINDiskCache decodedString:]', symObjAddr: 0xB9D, symBinAddr: 0x7470, symSize: 0x12 }
+  - { offset: 0x96592, size: 0x8, addend: 0x0, symName: '-[PINDiskCache defaultSerializer]', symObjAddr: 0xBAF, symBinAddr: 0x7482, symSize: 0xD }
+  - { offset: 0x965C6, size: 0x8, addend: 0x0, symName: '___33-[PINDiskCache defaultSerializer]_block_invoke', symObjAddr: 0xBBC, symBinAddr: 0x748F, symSize: 0x102 }
+  - { offset: 0x966FE, size: 0x8, addend: 0x0, symName: '-[PINDiskCache defaultDeserializer]', symObjAddr: 0xCBE, symBinAddr: 0x7591, symSize: 0xD }
+  - { offset: 0x96732, size: 0x8, addend: 0x0, symName: '___35-[PINDiskCache defaultDeserializer]_block_invoke', symObjAddr: 0xCCB, symBinAddr: 0x759E, symSize: 0xBD }
+  - { offset: 0x9684C, size: 0x8, addend: 0x0, symName: '-[PINDiskCache defaultKeyEncoder]', symObjAddr: 0xD88, symBinAddr: 0x765B, symSize: 0xD }
+  - { offset: 0x96880, size: 0x8, addend: 0x0, symName: '___33-[PINDiskCache defaultKeyEncoder]_block_invoke', symObjAddr: 0xD95, symBinAddr: 0x7668, symSize: 0xC7 }
+  - { offset: 0x9695F, size: 0x8, addend: 0x0, symName: '-[PINDiskCache defaultKeyDecoder]', symObjAddr: 0xE5C, symBinAddr: 0x772F, symSize: 0xD }
+  - { offset: 0x96993, size: 0x8, addend: 0x0, symName: '___33-[PINDiskCache defaultKeyDecoder]_block_invoke', symObjAddr: 0xE69, symBinAddr: 0x773C, symSize: 0x61 }
+  - { offset: 0x96A12, size: 0x8, addend: 0x0, symName: '+[PINDiskCache sharedTrashQueue].cold.1', symObjAddr: 0x8C52, symBinAddr: 0xF368, symSize: 0x18 }
+  - { offset: 0x96A41, size: 0x8, addend: 0x0, symName: '___32+[PINDiskCache sharedTrashQueue]_block_invoke', symObjAddr: 0xEEC, symBinAddr: 0x77BF, symSize: 0xB6 }
+  - { offset: 0x96B33, size: 0x8, addend: 0x0, symName: '+[PINDiskCache sharedLock].cold.1', symObjAddr: 0x8C6A, symBinAddr: 0xF380, symSize: 0x18 }
+  - { offset: 0x96B62, size: 0x8, addend: 0x0, symName: '___26+[PINDiskCache sharedLock]_block_invoke', symObjAddr: 0xFC4, symBinAddr: 0x7897, symSize: 0x2D }
+  - { offset: 0x96BA3, size: 0x8, addend: 0x0, symName: '+[PINDiskCache sharedTrashURL]', symObjAddr: 0xFF1, symBinAddr: 0x78C4, symSize: 0x1D8 }
+  - { offset: 0x96D8C, size: 0x8, addend: 0x0, symName: '+[PINDiskCache moveItemAtURLToTrashOrRemove:]', symObjAddr: 0x11C9, symBinAddr: 0x7A9C, symSize: 0x3A2 }
+  - { offset: 0x97115, size: 0x8, addend: 0x0, symName: '+[PINDiskCache emptyTrash]', symObjAddr: 0x156B, symBinAddr: 0x7E3E, symSize: 0x43 }
+  - { offset: 0x9716B, size: 0x8, addend: 0x0, symName: '___26+[PINDiskCache emptyTrash]_block_invoke', symObjAddr: 0x15AE, symBinAddr: 0x7E81, symSize: 0x1D0 }
+  - { offset: 0x97352, size: 0x8, addend: 0x0, symName: '-[PINDiskCache _locked_createCacheDirectory]', symObjAddr: 0x177E, symBinAddr: 0x8051, symSize: 0x1B1 }
+  - { offset: 0x97510, size: 0x8, addend: 0x0, symName: '+[PINDiskCache resourceKeys].cold.1', symObjAddr: 0x8C82, symBinAddr: 0xF398, symSize: 0x18 }
+  - { offset: 0x9753F, size: 0x8, addend: 0x0, symName: '___28+[PINDiskCache resourceKeys]_block_invoke', symObjAddr: 0x1951, symBinAddr: 0x8224, symSize: 0x93 }
+  - { offset: 0x9759A, size: 0x8, addend: 0x0, symName: '-[PINDiskCache _locked_initializeDiskPropertiesForFile:fileKey:]', symObjAddr: 0x19E4, symBinAddr: 0x82B7, symSize: 0x7C9 }
+  - { offset: 0x97C54, size: 0x8, addend: 0x0, symName: '-[PINDiskCache initializeDiskProperties]', symObjAddr: 0x21AD, symBinAddr: 0x8A80, symSize: 0x411 }
+  - { offset: 0x97F40, size: 0x8, addend: 0x0, symName: '-[PINDiskCache asynchronouslySetFileModificationDate:forURL:]', symObjAddr: 0x25BE, symBinAddr: 0x8E91, symSize: 0xF6 }
+  - { offset: 0x9804B, size: 0x8, addend: 0x0, symName: '___61-[PINDiskCache asynchronouslySetFileModificationDate:forURL:]_block_invoke', symObjAddr: 0x26B4, symBinAddr: 0x8F87, symSize: 0x49 }
+  - { offset: 0x980D3, size: 0x8, addend: 0x0, symName: '-[PINDiskCache _locked_setFileModificationDate:forURL:]', symObjAddr: 0x2755, symBinAddr: 0x8FD0, symSize: 0x1EF }
+  - { offset: 0x982BF, size: 0x8, addend: 0x0, symName: '-[PINDiskCache asynchronouslySetAgeLimit:forURL:]', symObjAddr: 0x2944, symBinAddr: 0x91BF, symSize: 0xDB }
+  - { offset: 0x9838A, size: 0x8, addend: 0x0, symName: '___49-[PINDiskCache asynchronouslySetAgeLimit:forURL:]_block_invoke', symObjAddr: 0x2A1F, symBinAddr: 0x929A, symSize: 0x4A }
+  - { offset: 0x98412, size: 0x8, addend: 0x0, symName: '-[PINDiskCache _locked_setAgeLimit:forURL:]', symObjAddr: 0x2AB3, symBinAddr: 0x92E4, symSize: 0x383 }
+  - { offset: 0x9874A, size: 0x8, addend: 0x0, symName: '-[PINDiskCache asynchronouslySetAccessCount:forURL:]', symObjAddr: 0x2E36, symBinAddr: 0x9667, symSize: 0xD2 }
+  - { offset: 0x98815, size: 0x8, addend: 0x0, symName: '___52-[PINDiskCache asynchronouslySetAccessCount:forURL:]_block_invoke', symObjAddr: 0x2F08, symBinAddr: 0x9739, symSize: 0x49 }
+  - { offset: 0x9889D, size: 0x8, addend: 0x0, symName: '-[PINDiskCache _locked_setAcessCount:forURL:]', symObjAddr: 0x2F51, symBinAddr: 0x9782, symSize: 0x372 }
+  - { offset: 0x98B7D, size: 0x8, addend: 0x0, symName: '-[PINDiskCache removeFileAndExecuteBlocksForKey:]', symObjAddr: 0x32C3, symBinAddr: 0x9AF4, symSize: 0x2A2 }
+  - { offset: 0x98E71, size: 0x8, addend: 0x0, symName: '-[PINDiskCache trimDiskToSize:]', symObjAddr: 0x3565, symBinAddr: 0x9D96, symSize: 0x3BC }
+  - { offset: 0x990C8, size: 0x8, addend: 0x0, symName: '___31-[PINDiskCache trimDiskToSize:]_block_invoke', symObjAddr: 0x3921, symBinAddr: 0xA152, symSize: 0x91 }
+  - { offset: 0x9919B, size: 0x8, addend: 0x0, symName: '-[PINDiskCache trimDiskToSizeByEvictionStrategy:]', symObjAddr: 0x39B2, symBinAddr: 0xA1E3, symSize: 0x3ED }
+  - { offset: 0x9942F, size: 0x8, addend: 0x0, symName: '___49-[PINDiskCache trimDiskToSizeByEvictionStrategy:]_block_invoke', symObjAddr: 0x3D9F, symBinAddr: 0xA5D0, symSize: 0x91 }
+  - { offset: 0x99502, size: 0x8, addend: 0x0, symName: '___49-[PINDiskCache trimDiskToSizeByEvictionStrategy:]_block_invoke_2', symObjAddr: 0x3E30, symBinAddr: 0xA661, symSize: 0x104 }
+  - { offset: 0x99662, size: 0x8, addend: 0x0, symName: '-[PINDiskCache trimDiskToDate:]', symObjAddr: 0x3F34, symBinAddr: 0xA765, symSize: 0x3FB }
+  - { offset: 0x99904, size: 0x8, addend: 0x0, symName: '___31-[PINDiskCache trimDiskToDate:]_block_invoke', symObjAddr: 0x432F, symBinAddr: 0xAB60, symSize: 0x91 }
+  - { offset: 0x999D7, size: 0x8, addend: 0x0, symName: '-[PINDiskCache trimToAgeLimitRecursively]', symObjAddr: 0x43C0, symBinAddr: 0xABF1, symSize: 0x11C }
+  - { offset: 0x99B3E, size: 0x8, addend: 0x0, symName: '___41-[PINDiskCache trimToAgeLimitRecursively]_block_invoke', symObjAddr: 0x44DC, symBinAddr: 0xAD0D, symSize: 0xCE }
+  - { offset: 0x99BF5, size: 0x8, addend: 0x0, symName: '___41-[PINDiskCache trimToAgeLimitRecursively]_block_invoke_2', symObjAddr: 0x45AA, symBinAddr: 0xADDB, symSize: 0x16 }
+  - { offset: 0x99C43, size: 0x8, addend: 0x0, symName: '-[PINDiskCache lockFileAccessWhileExecutingBlockAsync:]', symObjAddr: 0x45C0, symBinAddr: 0xADF1, symSize: 0xCC }
+  - { offset: 0x99CFD, size: 0x8, addend: 0x0, symName: '___55-[PINDiskCache lockFileAccessWhileExecutingBlockAsync:]_block_invoke', symObjAddr: 0x468C, symBinAddr: 0xAEBD, symSize: 0x3E }
+  - { offset: 0x99D74, size: 0x8, addend: 0x0, symName: '-[PINDiskCache containsObjectForKeyAsync:completion:]', symObjAddr: 0x46FA, symBinAddr: 0xAEFB, symSize: 0x112 }
+  - { offset: 0x99E87, size: 0x8, addend: 0x0, symName: '___53-[PINDiskCache containsObjectForKeyAsync:completion:]_block_invoke', symObjAddr: 0x480C, symBinAddr: 0xB00D, symSize: 0x34 }
+  - { offset: 0x99F03, size: 0x8, addend: 0x0, symName: '-[PINDiskCache objectForKeyAsync:completion:]', symObjAddr: 0x4884, symBinAddr: 0xB041, symSize: 0xF6 }
+  - { offset: 0x9A00E, size: 0x8, addend: 0x0, symName: '___45-[PINDiskCache objectForKeyAsync:completion:]_block_invoke', symObjAddr: 0x497A, symBinAddr: 0xB137, symSize: 0x75 }
+  - { offset: 0x9A0F7, size: 0x8, addend: 0x0, symName: '-[PINDiskCache fileURLForKeyAsync:completion:]', symObjAddr: 0x49EF, symBinAddr: 0xB1AC, symSize: 0xF9 }
+  - { offset: 0x9A20C, size: 0x8, addend: 0x0, symName: '___46-[PINDiskCache fileURLForKeyAsync:completion:]_block_invoke', symObjAddr: 0x4AE8, symBinAddr: 0xB2A5, symSize: 0x6E }
+  - { offset: 0x9A2D4, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setObjectAsync:forKey:completion:]', symObjAddr: 0x4B56, symBinAddr: 0xB313, symSize: 0x15 }
+  - { offset: 0x9A360, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setObjectAsync:forKey:withAgeLimit:completion:]', symObjAddr: 0x4B6B, symBinAddr: 0xB328, symSize: 0x132 }
+  - { offset: 0x9A4D7, size: 0x8, addend: 0x0, symName: '___62-[PINDiskCache setObjectAsync:forKey:withAgeLimit:completion:]_block_invoke', symObjAddr: 0x4C9D, symBinAddr: 0xB45A, symSize: 0x70 }
+  - { offset: 0x9A5BD, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setObjectAsync:forKey:withCost:completion:]', symObjAddr: 0x4D8B, symBinAddr: 0xB4CA, symSize: 0x15 }
+  - { offset: 0x9A658, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setObjectAsync:forKey:withCost:ageLimit:completion:]', symObjAddr: 0x4DA0, symBinAddr: 0xB4DF, symSize: 0x15 }
+  - { offset: 0x9A70A, size: 0x8, addend: 0x0, symName: '-[PINDiskCache removeObjectForKeyAsync:completion:]', symObjAddr: 0x4DB5, symBinAddr: 0xB4F4, symSize: 0xF6 }
+  - { offset: 0x9A815, size: 0x8, addend: 0x0, symName: '___51-[PINDiskCache removeObjectForKeyAsync:completion:]_block_invoke', symObjAddr: 0x4EAB, symBinAddr: 0xB5EA, symSize: 0x65 }
+  - { offset: 0x9A8E0, size: 0x8, addend: 0x0, symName: '-[PINDiskCache trimToSizeAsync:completion:]', symObjAddr: 0x4F10, symBinAddr: 0xB64F, symSize: 0x167 }
+  - { offset: 0x9AA17, size: 0x8, addend: 0x0, symName: '___43-[PINDiskCache trimToSizeAsync:completion:]_block_invoke', symObjAddr: 0x5077, symBinAddr: 0xB7B6, symSize: 0x38 }
+  - { offset: 0x9AA8B, size: 0x8, addend: 0x0, symName: '___43-[PINDiskCache trimToSizeAsync:completion:]_block_invoke.292', symObjAddr: 0x50AF, symBinAddr: 0xB7EE, symSize: 0x13 }
+  - { offset: 0x9AAEA, size: 0x8, addend: 0x0, symName: '-[PINDiskCache trimToDateAsync:completion:]', symObjAddr: 0x50C2, symBinAddr: 0xB801, symSize: 0x150 }
+  - { offset: 0x9AC29, size: 0x8, addend: 0x0, symName: '___43-[PINDiskCache trimToDateAsync:completion:]_block_invoke', symObjAddr: 0x5212, symBinAddr: 0xB951, symSize: 0x19 }
+  - { offset: 0x9AC91, size: 0x8, addend: 0x0, symName: '___43-[PINDiskCache trimToDateAsync:completion:]_block_invoke_2', symObjAddr: 0x522B, symBinAddr: 0xB96A, symSize: 0x13 }
+  - { offset: 0x9ACF0, size: 0x8, addend: 0x0, symName: '-[PINDiskCache trimToSizeByEvictionStrategyAsync:completion:]', symObjAddr: 0x523E, symBinAddr: 0xB97D, symSize: 0x167 }
+  - { offset: 0x9AE27, size: 0x8, addend: 0x0, symName: '___61-[PINDiskCache trimToSizeByEvictionStrategyAsync:completion:]_block_invoke', symObjAddr: 0x53A5, symBinAddr: 0xBAE4, symSize: 0x38 }
+  - { offset: 0x9AE9B, size: 0x8, addend: 0x0, symName: '___61-[PINDiskCache trimToSizeByEvictionStrategyAsync:completion:]_block_invoke_2', symObjAddr: 0x53DD, symBinAddr: 0xBB1C, symSize: 0x13 }
+  - { offset: 0x9AEFA, size: 0x8, addend: 0x0, symName: '-[PINDiskCache removeExpiredObjectsAsync:]', symObjAddr: 0x53F0, symBinAddr: 0xBB2F, symSize: 0xCC }
+  - { offset: 0x9AFB4, size: 0x8, addend: 0x0, symName: '___42-[PINDiskCache removeExpiredObjectsAsync:]_block_invoke', symObjAddr: 0x54BC, symBinAddr: 0xBBFB, symSize: 0x3A }
+  - { offset: 0x9B01F, size: 0x8, addend: 0x0, symName: '-[PINDiskCache removeAllObjectsAsync:]', symObjAddr: 0x54F6, symBinAddr: 0xBC35, symSize: 0xCC }
+  - { offset: 0x9B0D9, size: 0x8, addend: 0x0, symName: '___38-[PINDiskCache removeAllObjectsAsync:]_block_invoke', symObjAddr: 0x55C2, symBinAddr: 0xBD01, symSize: 0x3A }
+  - { offset: 0x9B144, size: 0x8, addend: 0x0, symName: '-[PINDiskCache enumerateObjectsWithBlockAsync:completionBlock:]', symObjAddr: 0x55FC, symBinAddr: 0xBD3B, symSize: 0xF6 }
+  - { offset: 0x9B24F, size: 0x8, addend: 0x0, symName: '___63-[PINDiskCache enumerateObjectsWithBlockAsync:completionBlock:]_block_invoke', symObjAddr: 0x56F2, symBinAddr: 0xBE31, symSize: 0x3E }
+  - { offset: 0x9B2CB, size: 0x8, addend: 0x0, symName: '-[PINDiskCache synchronouslyLockFileAccessWhileExecutingBlock:]', symObjAddr: 0x5772, symBinAddr: 0xBE6F, symSize: 0x61 }
+  - { offset: 0x9B372, size: 0x8, addend: 0x0, symName: '-[PINDiskCache containsObjectForKey:]', symObjAddr: 0x57D3, symBinAddr: 0xBED0, symSize: 0x287 }
+  - { offset: 0x9B582, size: 0x8, addend: 0x0, symName: '-[PINDiskCache objectForKey:]', symObjAddr: 0x5A5A, symBinAddr: 0xC157, symSize: 0x14 }
+  - { offset: 0x9B5EA, size: 0x8, addend: 0x0, symName: '-[PINDiskCache objectForKeyedSubscript:]', symObjAddr: 0x5A6E, symBinAddr: 0xC16B, symSize: 0x12 }
+  - { offset: 0x9B64C, size: 0x8, addend: 0x0, symName: '-[PINDiskCache objectForKey:fileURL:]', symObjAddr: 0x5A80, symBinAddr: 0xC17D, symSize: 0x640 }
+  - { offset: 0x9BBE5, size: 0x8, addend: 0x0, symName: '-[PINDiskCache fileURLForKey:]', symObjAddr: 0x60C0, symBinAddr: 0xC7BD, symSize: 0x19 }
+  - { offset: 0x9BC47, size: 0x8, addend: 0x0, symName: '-[PINDiskCache fileURLForKey:updateFileModificationDate:]', symObjAddr: 0x60D9, symBinAddr: 0xC7D6, symSize: 0x281 }
+  - { offset: 0x9BEBA, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setObject:forKey:]', symObjAddr: 0x635A, symBinAddr: 0xCA57, symSize: 0x15 }
+  - { offset: 0x9BF2F, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setObject:forKey:withAgeLimit:]', symObjAddr: 0x636F, symBinAddr: 0xCA6C, symSize: 0x15 }
+  - { offset: 0x9BFC1, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setObject:forKey:withCost:ageLimit:]', symObjAddr: 0x6384, symBinAddr: 0xCA81, symSize: 0x12 }
+  - { offset: 0x9C05A, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setObject:forKey:withCost:]', symObjAddr: 0x6396, symBinAddr: 0xCA93, symSize: 0x12 }
+  - { offset: 0x9C0DC, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setObject:forKeyedSubscript:]', symObjAddr: 0x63A8, symBinAddr: 0xCAA5, symSize: 0x28 }
+  - { offset: 0x9C146, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setObject:forKey:withAgeLimit:fileURL:]', symObjAddr: 0x63D0, symBinAddr: 0xCACD, symSize: 0x83F }
+  - { offset: 0x9C901, size: 0x8, addend: 0x0, symName: '-[PINDiskCache removeObjectForKey:]', symObjAddr: 0x6C0F, symBinAddr: 0xD30C, symSize: 0x14 }
+  - { offset: 0x9C965, size: 0x8, addend: 0x0, symName: '-[PINDiskCache removeObjectForKey:fileURL:]', symObjAddr: 0x6C23, symBinAddr: 0xD320, symSize: 0x99 }
+  - { offset: 0x9CA1F, size: 0x8, addend: 0x0, symName: '-[PINDiskCache trimToSize:]', symObjAddr: 0x6CBC, symBinAddr: 0xD3B9, symSize: 0x25 }
+  - { offset: 0x9CA78, size: 0x8, addend: 0x0, symName: '-[PINDiskCache trimToDate:]', symObjAddr: 0x6CE1, symBinAddr: 0xD3DE, symSize: 0x99 }
+  - { offset: 0x9CB41, size: 0x8, addend: 0x0, symName: '-[PINDiskCache trimToSizeByEvictionStrategy:]', symObjAddr: 0x6D7A, symBinAddr: 0xD477, symSize: 0x25 }
+  - { offset: 0x9CB9A, size: 0x8, addend: 0x0, symName: '-[PINDiskCache removeExpiredObjects]', symObjAddr: 0x6D9F, symBinAddr: 0xD49C, symSize: 0x232 }
+  - { offset: 0x9CD3C, size: 0x8, addend: 0x0, symName: '___36-[PINDiskCache removeExpiredObjects]_block_invoke', symObjAddr: 0x6FD1, symBinAddr: 0xD6CE, symSize: 0x107 }
+  - { offset: 0x9CEE0, size: 0x8, addend: 0x0, symName: '-[PINDiskCache removeAllObjects]', symObjAddr: 0x70D8, symBinAddr: 0xD7D5, symSize: 0x11A }
+  - { offset: 0x9D06C, size: 0x8, addend: 0x0, symName: '-[PINDiskCache enumerateObjectsWithBlock:]', symObjAddr: 0x71F2, symBinAddr: 0xD8EF, symSize: 0x3D3 }
+  - { offset: 0x9D31B, size: 0x8, addend: 0x0, symName: '-[PINDiskCache willAddObjectBlock]', symObjAddr: 0x75C5, symBinAddr: 0xDCC2, symSize: 0x5D }
+  - { offset: 0x9D3A1, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setWillAddObjectBlock:]', symObjAddr: 0x7622, symBinAddr: 0xDD1F, symSize: 0xCF }
+  - { offset: 0x9D45B, size: 0x8, addend: 0x0, symName: '___38-[PINDiskCache setWillAddObjectBlock:]_block_invoke', symObjAddr: 0x76F1, symBinAddr: 0xDDEE, symSize: 0x53 }
+  - { offset: 0x9D4DE, size: 0x8, addend: 0x0, symName: '-[PINDiskCache willRemoveObjectBlock]', symObjAddr: 0x7744, symBinAddr: 0xDE41, symSize: 0x5D }
+  - { offset: 0x9D564, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setWillRemoveObjectBlock:]', symObjAddr: 0x77A1, symBinAddr: 0xDE9E, symSize: 0xCF }
+  - { offset: 0x9D61E, size: 0x8, addend: 0x0, symName: '___41-[PINDiskCache setWillRemoveObjectBlock:]_block_invoke', symObjAddr: 0x7870, symBinAddr: 0xDF6D, symSize: 0x53 }
+  - { offset: 0x9D6A1, size: 0x8, addend: 0x0, symName: '-[PINDiskCache willRemoveAllObjectsBlock]', symObjAddr: 0x78C3, symBinAddr: 0xDFC0, symSize: 0x5D }
+  - { offset: 0x9D727, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setWillRemoveAllObjectsBlock:]', symObjAddr: 0x7920, symBinAddr: 0xE01D, symSize: 0xCF }
+  - { offset: 0x9D7E1, size: 0x8, addend: 0x0, symName: '___45-[PINDiskCache setWillRemoveAllObjectsBlock:]_block_invoke', symObjAddr: 0x79EF, symBinAddr: 0xE0EC, symSize: 0x53 }
+  - { offset: 0x9D864, size: 0x8, addend: 0x0, symName: '-[PINDiskCache didAddObjectBlock]', symObjAddr: 0x7A42, symBinAddr: 0xE13F, symSize: 0x5D }
+  - { offset: 0x9D8EA, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setDidAddObjectBlock:]', symObjAddr: 0x7A9F, symBinAddr: 0xE19C, symSize: 0xCF }
+  - { offset: 0x9D9A4, size: 0x8, addend: 0x0, symName: '___37-[PINDiskCache setDidAddObjectBlock:]_block_invoke', symObjAddr: 0x7B6E, symBinAddr: 0xE26B, symSize: 0x53 }
+  - { offset: 0x9DA27, size: 0x8, addend: 0x0, symName: '-[PINDiskCache didRemoveObjectBlock]', symObjAddr: 0x7BC1, symBinAddr: 0xE2BE, symSize: 0x5D }
+  - { offset: 0x9DAAD, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setDidRemoveObjectBlock:]', symObjAddr: 0x7C1E, symBinAddr: 0xE31B, symSize: 0xCF }
+  - { offset: 0x9DB67, size: 0x8, addend: 0x0, symName: '___40-[PINDiskCache setDidRemoveObjectBlock:]_block_invoke', symObjAddr: 0x7CED, symBinAddr: 0xE3EA, symSize: 0x53 }
+  - { offset: 0x9DBEA, size: 0x8, addend: 0x0, symName: '-[PINDiskCache didRemoveAllObjectsBlock]', symObjAddr: 0x7D40, symBinAddr: 0xE43D, symSize: 0x5D }
+  - { offset: 0x9DC70, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setDidRemoveAllObjectsBlock:]', symObjAddr: 0x7D9D, symBinAddr: 0xE49A, symSize: 0xCF }
+  - { offset: 0x9DD2A, size: 0x8, addend: 0x0, symName: '___44-[PINDiskCache setDidRemoveAllObjectsBlock:]_block_invoke', symObjAddr: 0x7E6C, symBinAddr: 0xE569, symSize: 0x53 }
+  - { offset: 0x9DDAD, size: 0x8, addend: 0x0, symName: '-[PINDiskCache byteLimit]', symObjAddr: 0x7EBF, symBinAddr: 0xE5BC, symSize: 0x3D }
+  - { offset: 0x9DE1F, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setByteLimit:]', symObjAddr: 0x7EFC, symBinAddr: 0xE5F9, symSize: 0x96 }
+  - { offset: 0x9DE90, size: 0x8, addend: 0x0, symName: '___29-[PINDiskCache setByteLimit:]_block_invoke', symObjAddr: 0x7F92, symBinAddr: 0xE68F, symSize: 0x5C }
+  - { offset: 0x9DF07, size: 0x8, addend: 0x0, symName: '-[PINDiskCache ageLimit]', symObjAddr: 0x7FEE, symBinAddr: 0xE6EB, symSize: 0x44 }
+  - { offset: 0x9DF79, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setAgeLimit:]', symObjAddr: 0x8032, symBinAddr: 0xE72F, symSize: 0x9A }
+  - { offset: 0x9DFEA, size: 0x8, addend: 0x0, symName: '___28-[PINDiskCache setAgeLimit:]_block_invoke', symObjAddr: 0x80CC, symBinAddr: 0xE7C9, symSize: 0xBA }
+  - { offset: 0x9E081, size: 0x8, addend: 0x0, symName: '___28-[PINDiskCache setAgeLimit:]_block_invoke_2', symObjAddr: 0x8186, symBinAddr: 0xE883, symSize: 0x16 }
+  - { offset: 0x9E0CF, size: 0x8, addend: 0x0, symName: '-[PINDiskCache isTTLCache]', symObjAddr: 0x819C, symBinAddr: 0xE899, symSize: 0x3D }
+  - { offset: 0x9E141, size: 0x8, addend: 0x0, symName: '-[PINDiskCache writingProtectionOption]', symObjAddr: 0x81D9, symBinAddr: 0xE8D6, symSize: 0x3D }
+  - { offset: 0x9E1B3, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setWritingProtectionOption:]', symObjAddr: 0x8216, symBinAddr: 0xE913, symSize: 0x96 }
+  - { offset: 0x9E224, size: 0x8, addend: 0x0, symName: '___43-[PINDiskCache setWritingProtectionOption:]_block_invoke', symObjAddr: 0x82AC, symBinAddr: 0xE9A9, symSize: 0x57 }
+  - { offset: 0x9E2AF, size: 0x8, addend: 0x0, symName: '-[PINDiskCache lockForWriting]', symObjAddr: 0x8303, symBinAddr: 0xEA00, symSize: 0x3F }
+  - { offset: 0x9E322, size: 0x8, addend: 0x0, symName: '-[PINDiskCache lockAndWaitForKnownState]', symObjAddr: 0x8342, symBinAddr: 0xEA3F, symSize: 0x3F }
+  - { offset: 0x9E379, size: 0x8, addend: 0x0, symName: '-[PINDiskCache lock]', symObjAddr: 0x8381, symBinAddr: 0xEA7E, symSize: 0x11 }
+  - { offset: 0x9E3DB, size: 0x8, addend: 0x0, symName: '-[PINDiskCache unlock]', symObjAddr: 0x8392, symBinAddr: 0xEA8F, symSize: 0x11 }
+  - { offset: 0x9E43D, size: 0x8, addend: 0x0, symName: '-[PINDiskCache writingProtectionOptionSet]', symObjAddr: 0x83A3, symBinAddr: 0xEAA0, symSize: 0x9 }
+  - { offset: 0x9E472, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setWritingProtectionOptionSet:]', symObjAddr: 0x83AC, symBinAddr: 0xEAA9, symSize: 0x9 }
+  - { offset: 0x9E4AF, size: 0x8, addend: 0x0, symName: '-[PINDiskCache prefix]', symObjAddr: 0x83B5, symBinAddr: 0xEAB2, symSize: 0x14 }
+  - { offset: 0x9E4E6, size: 0x8, addend: 0x0, symName: '-[PINDiskCache cacheURL]', symObjAddr: 0x83C9, symBinAddr: 0xEAC6, symSize: 0xD }
+  - { offset: 0x9E51B, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setCacheURL:]', symObjAddr: 0x83D6, symBinAddr: 0xEAD3, symSize: 0x11 }
+  - { offset: 0x9E55C, size: 0x8, addend: 0x0, symName: '-[PINDiskCache byteCount]', symObjAddr: 0x83E7, symBinAddr: 0xEAE4, symSize: 0xD }
+  - { offset: 0x9E591, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setByteCount:]', symObjAddr: 0x83F4, symBinAddr: 0xEAF1, symSize: 0xD }
+  - { offset: 0x9E5CE, size: 0x8, addend: 0x0, symName: '-[PINDiskCache evictionStrategy]', symObjAddr: 0x8401, symBinAddr: 0xEAFE, symSize: 0xD }
+  - { offset: 0x9E603, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setEvictionStrategy:]', symObjAddr: 0x840E, symBinAddr: 0xEB0B, symSize: 0xD }
+  - { offset: 0x9E640, size: 0x8, addend: 0x0, symName: '-[PINDiskCache mutex]', symObjAddr: 0x841B, symBinAddr: 0xEB18, symSize: 0x34 }
+  - { offset: 0x9E675, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setMutex:]', symObjAddr: 0x844F, symBinAddr: 0xEB4C, symSize: 0x32 }
+  - { offset: 0x9E6B3, size: 0x8, addend: 0x0, symName: '-[PINDiskCache name]', symObjAddr: 0x8481, symBinAddr: 0xEB7E, symSize: 0xD }
+  - { offset: 0x9E6E8, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setName:]', symObjAddr: 0x848E, symBinAddr: 0xEB8B, symSize: 0xF }
+  - { offset: 0x9E727, size: 0x8, addend: 0x0, symName: '-[PINDiskCache operationQueue]', symObjAddr: 0x849D, symBinAddr: 0xEB9A, symSize: 0xD }
+  - { offset: 0x9E75C, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setOperationQueue:]', symObjAddr: 0x84AA, symBinAddr: 0xEBA7, symSize: 0x14 }
+  - { offset: 0x9E79D, size: 0x8, addend: 0x0, symName: '-[PINDiskCache metadata]', symObjAddr: 0x84BE, symBinAddr: 0xEBBB, symSize: 0xD }
+  - { offset: 0x9E7D2, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setMetadata:]', symObjAddr: 0x84CB, symBinAddr: 0xEBC8, symSize: 0x14 }
+  - { offset: 0x9E813, size: 0x8, addend: 0x0, symName: '-[PINDiskCache diskWritableCondition]', symObjAddr: 0x84DF, symBinAddr: 0xEBDC, symSize: 0x29 }
+  - { offset: 0x9E848, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setDiskWritableCondition:]', symObjAddr: 0x8508, symBinAddr: 0xEC05, symSize: 0x27 }
+  - { offset: 0x9E886, size: 0x8, addend: 0x0, symName: '-[PINDiskCache diskWritable]', symObjAddr: 0x852F, symBinAddr: 0xEC2C, symSize: 0x9 }
+  - { offset: 0x9E8BB, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setDiskWritable:]', symObjAddr: 0x8538, symBinAddr: 0xEC35, symSize: 0x9 }
+  - { offset: 0x9E8F8, size: 0x8, addend: 0x0, symName: '-[PINDiskCache diskStateKnownCondition]', symObjAddr: 0x8541, symBinAddr: 0xEC3E, symSize: 0x29 }
+  - { offset: 0x9E92D, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setDiskStateKnownCondition:]', symObjAddr: 0x856A, symBinAddr: 0xEC67, symSize: 0x27 }
+  - { offset: 0x9E96B, size: 0x8, addend: 0x0, symName: '-[PINDiskCache diskStateKnown]', symObjAddr: 0x8591, symBinAddr: 0xEC8E, symSize: 0x9 }
+  - { offset: 0x9E9A0, size: 0x8, addend: 0x0, symName: '-[PINDiskCache setDiskStateKnown:]', symObjAddr: 0x859A, symBinAddr: 0xEC97, symSize: 0x9 }
+  - { offset: 0x9E9DD, size: 0x8, addend: 0x0, symName: '-[PINDiskCache .cxx_destruct]', symObjAddr: 0x85A3, symBinAddr: 0xECA0, symSize: 0xC3 }
+  - { offset: 0x9EA10, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) lockFileAccessWhileExecutingBlock:]', symObjAddr: 0x8666, symBinAddr: 0xED63, symSize: 0x12 }
+  - { offset: 0x9EA6E, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) containsObjectForKey:block:]', symObjAddr: 0x8678, symBinAddr: 0xED75, symSize: 0x12 }
+  - { offset: 0x9EAE3, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) objectForKey:block:]', symObjAddr: 0x868A, symBinAddr: 0xED87, symSize: 0x12 }
+  - { offset: 0x9EB58, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) fileURLForKey:block:]', symObjAddr: 0x869C, symBinAddr: 0xED99, symSize: 0x12 }
+  - { offset: 0x9EBCD, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) setObject:forKey:block:]', symObjAddr: 0x86AE, symBinAddr: 0xEDAB, symSize: 0x12 }
+  - { offset: 0x9EC59, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) removeObjectForKey:block:]', symObjAddr: 0x86C0, symBinAddr: 0xEDBD, symSize: 0x12 }
+  - { offset: 0x9ECCE, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) trimToDate:block:]', symObjAddr: 0x86D2, symBinAddr: 0xEDCF, symSize: 0x98 }
+  - { offset: 0x9ED8E, size: 0x8, addend: 0x0, symName: '___45-[PINDiskCache(Deprecated) trimToDate:block:]_block_invoke', symObjAddr: 0x876A, symBinAddr: 0xEE67, symSize: 0x16 }
+  - { offset: 0x9EDE7, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) trimToSize:block:]', symObjAddr: 0x8797, symBinAddr: 0xEE7D, symSize: 0x98 }
+  - { offset: 0x9EEA7, size: 0x8, addend: 0x0, symName: '___45-[PINDiskCache(Deprecated) trimToSize:block:]_block_invoke', symObjAddr: 0x882F, symBinAddr: 0xEF15, symSize: 0x16 }
+  - { offset: 0x9EF00, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) trimToSizeByDate:block:]', symObjAddr: 0x8845, symBinAddr: 0xEF2B, symSize: 0x98 }
+  - { offset: 0x9EFC0, size: 0x8, addend: 0x0, symName: '___51-[PINDiskCache(Deprecated) trimToSizeByDate:block:]_block_invoke', symObjAddr: 0x88DD, symBinAddr: 0xEFC3, symSize: 0x16 }
+  - { offset: 0x9F019, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) removeAllObjects:]', symObjAddr: 0x88F3, symBinAddr: 0xEFD9, symSize: 0x8E }
+  - { offset: 0x9F0C1, size: 0x8, addend: 0x0, symName: '___45-[PINDiskCache(Deprecated) removeAllObjects:]_block_invoke', symObjAddr: 0x8981, symBinAddr: 0xF067, symSize: 0x16 }
+  - { offset: 0x9F11A, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) enumerateObjectsWithBlock:completionBlock:]', symObjAddr: 0x8997, symBinAddr: 0xF07D, symSize: 0xDB }
+  - { offset: 0x9F21D, size: 0x8, addend: 0x0, symName: '___70-[PINDiskCache(Deprecated) enumerateObjectsWithBlock:completionBlock:]_block_invoke', symObjAddr: 0x8A72, symBinAddr: 0xF158, symSize: 0xF }
+  - { offset: 0x9F2A3, size: 0x8, addend: 0x0, symName: '___70-[PINDiskCache(Deprecated) enumerateObjectsWithBlock:completionBlock:]_block_invoke.605', symObjAddr: 0x8A81, symBinAddr: 0xF167, symSize: 0x16 }
+  - { offset: 0x9F2FC, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) setTtlCache:]', symObjAddr: 0x8A97, symBinAddr: 0xF17D, symSize: 0x94 }
+  - { offset: 0x9F36D, size: 0x8, addend: 0x0, symName: '___40-[PINDiskCache(Deprecated) setTtlCache:]_block_invoke', symObjAddr: 0x8B2B, symBinAddr: 0xF211, symSize: 0x3D }
+  - { offset: 0x9F3D8, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) trimToSizeByDate:]', symObjAddr: 0x8B68, symBinAddr: 0xF24E, symSize: 0x12 }
+  - { offset: 0x9F436, size: 0x8, addend: 0x0, symName: '-[PINDiskCache(Deprecated) trimToSizeByDateAsync:completion:]', symObjAddr: 0x8B7A, symBinAddr: 0xF260, symSize: 0x12 }
+  - { offset: 0x9F4AB, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata createdDate]', symObjAddr: 0x8B8C, symBinAddr: 0xF272, symSize: 0xA }
+  - { offset: 0x9F4E0, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata setCreatedDate:]', symObjAddr: 0x8B96, symBinAddr: 0xF27C, symSize: 0x11 }
+  - { offset: 0x9F521, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata lastModifiedDate]', symObjAddr: 0x8BA7, symBinAddr: 0xF28D, symSize: 0xA }
+  - { offset: 0x9F556, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata setLastModifiedDate:]', symObjAddr: 0x8BB1, symBinAddr: 0xF297, symSize: 0x11 }
+  - { offset: 0x9F597, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata size]', symObjAddr: 0x8BC2, symBinAddr: 0xF2A8, symSize: 0xA }
+  - { offset: 0x9F5CC, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata setSize:]', symObjAddr: 0x8BCC, symBinAddr: 0xF2B2, symSize: 0x11 }
+  - { offset: 0x9F60D, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata ageLimit]', symObjAddr: 0x8BDD, symBinAddr: 0xF2C3, symSize: 0xB }
+  - { offset: 0x9F642, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata setAgeLimit:]', symObjAddr: 0x8BE8, symBinAddr: 0xF2CE, symSize: 0xB }
+  - { offset: 0x9F67F, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata accessCount]', symObjAddr: 0x8BF3, symBinAddr: 0xF2D9, symSize: 0xA }
+  - { offset: 0x9F6B4, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata setAccessCount:]', symObjAddr: 0x8BFD, symBinAddr: 0xF2E3, symSize: 0xA }
+  - { offset: 0x9F6F1, size: 0x8, addend: 0x0, symName: '-[PINDiskCacheMetadata .cxx_destruct]', symObjAddr: 0x8C07, symBinAddr: 0xF2ED, symSize: 0x33 }
+...

@@ -1,0 +1,85 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/vovaskr/Library/Caches/org.carthage.CarthageKit/DerivedData/26.1.1_17B100/PINOperation/1.2.3/Build/Products/Release-iphonesimulator/PINOperation.framework/PINOperation'
+relocations:
+  - { offset: 0x36A3F, size: 0x8, addend: 0x0, symName: _PINOperationVersionString, symObjAddr: 0x0, symBinAddr: 0x3740, symSize: 0x0 }
+  - { offset: 0x36A74, size: 0x8, addend: 0x0, symName: _PINOperationVersionNumber, symObjAddr: 0x38, symBinAddr: 0x3778, symSize: 0x0 }
+  - { offset: 0x36AB1, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup initWithOperationQueue:]', symObjAddr: 0x0, symBinAddr: 0xC10, symSize: 0x114 }
+  - { offset: 0x36BCD, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup initWithOperationQueue:]', symObjAddr: 0x0, symBinAddr: 0xC10, symSize: 0x114 }
+  - { offset: 0x36C7D, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup dealloc]', symObjAddr: 0x114, symBinAddr: 0xD24, symSize: 0x48 }
+  - { offset: 0x36CD1, size: 0x8, addend: 0x0, symName: '+[PINOperationGroup asyncOperationGroupWithQueue:]', symObjAddr: 0x15C, symBinAddr: 0xD6C, symSize: 0x48 }
+  - { offset: 0x36D18, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup locked_nextOperationReference]', symObjAddr: 0x1A4, symBinAddr: 0xDB4, symSize: 0x1C }
+  - { offset: 0x36D5B, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup start]', symObjAddr: 0x1C0, symBinAddr: 0xDD0, symSize: 0x204 }
+  - { offset: 0x36E97, size: 0x8, addend: 0x0, symName: '___26-[PINOperationGroup start]_block_invoke', symObjAddr: 0x3C4, symBinAddr: 0xFD4, symSize: 0x30 }
+  - { offset: 0x36F0F, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40b, symObjAddr: 0x3F4, symBinAddr: 0x1004, symSize: 0x34 }
+  - { offset: 0x36F38, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s, symObjAddr: 0x428, symBinAddr: 0x1038, symSize: 0x28 }
+  - { offset: 0x36F57, size: 0x8, addend: 0x0, symName: '___26-[PINOperationGroup start]_block_invoke.5', symObjAddr: 0x450, symBinAddr: 0x1060, symSize: 0x8 }
+  - { offset: 0x36F96, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s, symObjAddr: 0x458, symBinAddr: 0x1068, symSize: 0x8 }
+  - { offset: 0x36FBD, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x460, symBinAddr: 0x1070, symSize: 0x8 }
+  - { offset: 0x36FDC, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup cancel]', symObjAddr: 0x468, symBinAddr: 0x1078, symSize: 0x148 }
+  - { offset: 0x37034, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup addOperation:]', symObjAddr: 0x5B0, symBinAddr: 0x11C0, symSize: 0x8 }
+  - { offset: 0x37077, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup addOperation:withPriority:]', symObjAddr: 0x5B8, symBinAddr: 0x11C8, symSize: 0xE8 }
+  - { offset: 0x370DE, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup setCompletion:]', symObjAddr: 0x6A0, symBinAddr: 0x12B0, symSize: 0x64 }
+  - { offset: 0x37121, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup waitUntilComplete]', symObjAddr: 0x704, symBinAddr: 0x1314, symSize: 0x30 }
+  - { offset: 0x37180, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup runCompletionIfNeeded]', symObjAddr: 0x734, symBinAddr: 0x1344, symSize: 0x54 }
+  - { offset: 0x371D7, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup lock]', symObjAddr: 0x788, symBinAddr: 0x1398, symSize: 0x8 }
+  - { offset: 0x3722B, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup unlock]', symObjAddr: 0x790, symBinAddr: 0x13A0, symSize: 0x8 }
+  - { offset: 0x3727F, size: 0x8, addend: 0x0, symName: '-[PINOperationGroup .cxx_destruct]', symObjAddr: 0x798, symBinAddr: 0x13A8, symSize: 0x6C }
+  - { offset: 0x374B9, size: 0x8, addend: 0x0, symName: '+[PINOperation operationWithBlock:reference:priority:identifier:data:completion:]', symObjAddr: 0x0, symBinAddr: 0x1414, symSize: 0x104 }
+  - { offset: 0x374D5, size: 0x8, addend: 0x0, symName: '+[PINOperationQueue sharedOperationQueue]', symObjAddr: 0x4EC, symBinAddr: 0x1900, symSize: 0x30 }
+  - { offset: 0x374FF, size: 0x8, addend: 0x0, symName: _sharedOperationQueue.sharedOperationQueue, symObjAddr: 0xABE0, symBinAddr: 0xCB40, symSize: 0x0 }
+  - { offset: 0x37515, size: 0x8, addend: 0x0, symName: _sharedOperationQueue.onceToken, symObjAddr: 0xABE8, symBinAddr: 0xCB48, symSize: 0x0 }
+  - { offset: 0x377E2, size: 0x8, addend: 0x0, symName: '+[PINOperation operationWithBlock:reference:priority:identifier:data:completion:]', symObjAddr: 0x0, symBinAddr: 0x1414, symSize: 0x104 }
+  - { offset: 0x37889, size: 0x8, addend: 0x0, symName: '-[PINOperation addCompletion:]', symObjAddr: 0x104, symBinAddr: 0x1518, symSize: 0x88 }
+  - { offset: 0x378CC, size: 0x8, addend: 0x0, symName: '-[PINOperation block]', symObjAddr: 0x18C, symBinAddr: 0x15A0, symSize: 0x8 }
+  - { offset: 0x37903, size: 0x8, addend: 0x0, symName: '-[PINOperation setBlock:]', symObjAddr: 0x194, symBinAddr: 0x15A8, symSize: 0x8 }
+  - { offset: 0x37942, size: 0x8, addend: 0x0, symName: '-[PINOperation reference]', symObjAddr: 0x19C, symBinAddr: 0x15B0, symSize: 0x8 }
+  - { offset: 0x37979, size: 0x8, addend: 0x0, symName: '-[PINOperation setReference:]', symObjAddr: 0x1A4, symBinAddr: 0x15B8, symSize: 0xC }
+  - { offset: 0x379BA, size: 0x8, addend: 0x0, symName: '-[PINOperation priority]', symObjAddr: 0x1B0, symBinAddr: 0x15C4, symSize: 0x8 }
+  - { offset: 0x379F1, size: 0x8, addend: 0x0, symName: '-[PINOperation setPriority:]', symObjAddr: 0x1B8, symBinAddr: 0x15CC, symSize: 0x8 }
+  - { offset: 0x37A2E, size: 0x8, addend: 0x0, symName: '-[PINOperation completions]', symObjAddr: 0x1C0, symBinAddr: 0x15D4, symSize: 0x8 }
+  - { offset: 0x37A65, size: 0x8, addend: 0x0, symName: '-[PINOperation setCompletions:]', symObjAddr: 0x1C8, symBinAddr: 0x15DC, symSize: 0xC }
+  - { offset: 0x37AA6, size: 0x8, addend: 0x0, symName: '-[PINOperation identifier]', symObjAddr: 0x1D4, symBinAddr: 0x15E8, symSize: 0x8 }
+  - { offset: 0x37ADD, size: 0x8, addend: 0x0, symName: '-[PINOperation setIdentifier:]', symObjAddr: 0x1DC, symBinAddr: 0x15F0, symSize: 0xC }
+  - { offset: 0x37B1E, size: 0x8, addend: 0x0, symName: '-[PINOperation data]', symObjAddr: 0x1E8, symBinAddr: 0x15FC, symSize: 0x8 }
+  - { offset: 0x37B55, size: 0x8, addend: 0x0, symName: '-[PINOperation setData:]', symObjAddr: 0x1F0, symBinAddr: 0x1604, symSize: 0xC }
+  - { offset: 0x37B96, size: 0x8, addend: 0x0, symName: '-[PINOperation .cxx_destruct]', symObjAddr: 0x1FC, symBinAddr: 0x1610, symSize: 0x54 }
+  - { offset: 0x37BC9, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue initWithMaxConcurrentOperations:]', symObjAddr: 0x250, symBinAddr: 0x1664, symSize: 0x60 }
+  - { offset: 0x37C40, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue initWithMaxConcurrentOperations:concurrentQueue:]', symObjAddr: 0x2B0, symBinAddr: 0x16C4, symSize: 0x1F4 }
+  - { offset: 0x37DCB, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue dealloc]', symObjAddr: 0x4A4, symBinAddr: 0x18B8, symSize: 0x48 }
+  - { offset: 0x37E4C, size: 0x8, addend: 0x0, symName: '+[PINOperationQueue sharedOperationQueue].cold.1', symObjAddr: 0x1654, symBinAddr: 0x2A30, symSize: 0x14 }
+  - { offset: 0x37E68, size: 0x8, addend: 0x0, symName: '+[PINOperationQueue sharedOperationQueue].cold.1', symObjAddr: 0x1654, symBinAddr: 0x2A30, symSize: 0x14 }
+  - { offset: 0x37E7A, size: 0x8, addend: 0x0, symName: '___41+[PINOperationQueue sharedOperationQueue]_block_invoke', symObjAddr: 0x51C, symBinAddr: 0x1930, symSize: 0x7C }
+  - { offset: 0x37ED0, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue nextOperationReference]', symObjAddr: 0x598, symBinAddr: 0x19AC, symSize: 0x50 }
+  - { offset: 0x37F17, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue addOperation:]', symObjAddr: 0x5E8, symBinAddr: 0x19FC, symSize: 0x4 }
+  - { offset: 0x37F5A, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue scheduleOperation:]', symObjAddr: 0x5EC, symBinAddr: 0x1A00, symSize: 0x8 }
+  - { offset: 0x37F9D, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue addOperation:withPriority:]', symObjAddr: 0x5F4, symBinAddr: 0x1A08, symSize: 0x4 }
+  - { offset: 0x37FEE, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue scheduleOperation:withPriority:]', symObjAddr: 0x5F8, symBinAddr: 0x1A0C, symSize: 0x120 }
+  - { offset: 0x38055, size: 0x8, addend: 0x0, symName: '___52-[PINOperationQueue scheduleOperation:withPriority:]_block_invoke', symObjAddr: 0x718, symBinAddr: 0x1B2C, symSize: 0xC }
+  - { offset: 0x380A8, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x724, symBinAddr: 0x1B38, symSize: 0x10 }
+  - { offset: 0x380D1, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue addOperation:withPriority:identifier:coalescingData:dataCoalescingBlock:completion:]', symObjAddr: 0x73C, symBinAddr: 0x1B48, symSize: 0x4 }
+  - { offset: 0x3815A, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue scheduleOperation:withPriority:identifier:coalescingData:dataCoalescingBlock:completion:]', symObjAddr: 0x740, symBinAddr: 0x1B4C, symSize: 0x1DC }
+  - { offset: 0x38243, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue locked_addOperation:]', symObjAddr: 0x91C, symBinAddr: 0x1D28, symSize: 0xFC }
+  - { offset: 0x382B3, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue cancelAllOperations]', symObjAddr: 0xA18, symBinAddr: 0x1E24, symSize: 0x140 }
+  - { offset: 0x382FE, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue cancelOperation:]', symObjAddr: 0xB58, symBinAddr: 0x1F64, symSize: 0x5C }
+  - { offset: 0x38358, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue maxConcurrentOperations]', symObjAddr: 0xBB4, symBinAddr: 0x1FC0, symSize: 0x30 }
+  - { offset: 0x383A1, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue setMaxConcurrentOperations:]', symObjAddr: 0xBE4, symBinAddr: 0x1FF0, symSize: 0xC8 }
+  - { offset: 0x38424, size: 0x8, addend: 0x0, symName: '___48-[PINOperationQueue setMaxConcurrentOperations:]_block_invoke', symObjAddr: 0xCAC, symBinAddr: 0x20B8, symSize: 0x78 }
+  - { offset: 0x384C3, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40r, symObjAddr: 0xD24, symBinAddr: 0x2130, symSize: 0x34 }
+  - { offset: 0x384EC, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40r, symObjAddr: 0xD58, symBinAddr: 0x2164, symSize: 0x2C }
+  - { offset: 0x3850B, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue locked_cancelOperation:]', symObjAddr: 0xD84, symBinAddr: 0x2190, symSize: 0x60 }
+  - { offset: 0x3858F, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue setOperationPriority:withReference:]', symObjAddr: 0xDE4, symBinAddr: 0x21F0, symSize: 0xE0 }
+  - { offset: 0x38627, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue scheduleNextOperations:]', symObjAddr: 0xEC4, symBinAddr: 0x22D0, symSize: 0x108 }
+  - { offset: 0x386D0, size: 0x8, addend: 0x0, symName: '___44-[PINOperationQueue scheduleNextOperations:]_block_invoke', symObjAddr: 0xFCC, symBinAddr: 0x23D8, symSize: 0x174 }
+  - { offset: 0x38770, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s, symObjAddr: 0x1140, symBinAddr: 0x254C, symSize: 0x28 }
+  - { offset: 0x38799, size: 0x8, addend: 0x0, symName: '___44-[PINOperationQueue scheduleNextOperations:]_block_invoke.59', symObjAddr: 0x1190, symBinAddr: 0x2574, symSize: 0xD0 }
+  - { offset: 0x38834, size: 0x8, addend: 0x0, symName: '___44-[PINOperationQueue scheduleNextOperations:]_block_invoke_2', symObjAddr: 0x1260, symBinAddr: 0x2644, symSize: 0x15C }
+  - { offset: 0x388E2, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue operationQueueWithPriority:]', symObjAddr: 0x13C4, symBinAddr: 0x27A0, symSize: 0x1C }
+  - { offset: 0x38929, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue locked_nextOperationByPriority]', symObjAddr: 0x13E0, symBinAddr: 0x27BC, symSize: 0x74 }
+  - { offset: 0x38972, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue locked_nextOperationByQueue]', symObjAddr: 0x1454, symBinAddr: 0x2830, symSize: 0x40 }
+  - { offset: 0x389BB, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue waitUntilAllOperationsAreFinished]', symObjAddr: 0x1494, symBinAddr: 0x2870, symSize: 0x2C }
+  - { offset: 0x38A14, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue locked_removeOperation:]', symObjAddr: 0x14C0, symBinAddr: 0x289C, symSize: 0xE8 }
+  - { offset: 0x38A7D, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue lock]', symObjAddr: 0x15A8, symBinAddr: 0x2984, symSize: 0x8 }
+  - { offset: 0x38AD2, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue unlock]', symObjAddr: 0x15B0, symBinAddr: 0x298C, symSize: 0x8 }
+  - { offset: 0x38B27, size: 0x8, addend: 0x0, symName: '-[PINOperationQueue .cxx_destruct]', symObjAddr: 0x15B8, symBinAddr: 0x2994, symSize: 0x9C }
+...

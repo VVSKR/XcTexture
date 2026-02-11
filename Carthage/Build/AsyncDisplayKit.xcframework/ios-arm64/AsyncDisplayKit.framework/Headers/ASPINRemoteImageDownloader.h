@@ -8,9 +8,6 @@
 //
 
 #import <AsyncDisplayKit/ASAvailability.h>
-
-#if AS_PIN_REMOTE_IMAGE
-
 #import <AsyncDisplayKit/ASImageProtocols.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -76,5 +73,3 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
-
-#endif

@@ -30,3 +30,40 @@ let package = Package(
         .binaryTarget(name: "libwebp", path: "Carthage/Build/libwebp.xcframework")
     ]
 )
+
+//import PackageDescription
+//
+//let package = Package(
+//    name: "AsyncDisplayKit",
+//    platforms: [.iOS(.v17)],
+//    products: [
+//        .library(
+//            name: "AsyncDisplayKit",
+//            targets: ["AsyncDisplayKit", "PINRemoteImage", "PINCache", "PINOperation", "libwebp"]
+//        ),
+//    ],
+//    targets: [
+//        .binaryTarget(name: "AsyncDisplayKit", path: "XcFrameworks/AsyncDisplayKit.xcframework"),
+//        .binaryTarget(name: "PINRemoteImage", path: "XcFrameworks/PINRemoteImage.xcframework"),
+//        .binaryTarget(name: "PINCache", path: "XcFrameworks/PINCache.xcframework"),
+//        .binaryTarget(name: "PINOperation", path: "XcFrameworks/PINOperation.xcframework"),
+//        .binaryTarget(name: "libwebp", path: "XcFrameworks/libwebp.xcframework")
+//    ]
+//)
+
+
+//SWIFT_EMIT_LOC_STRINGS = YES;
+//                OTHER_SWIFT_FLAGS = (
+//                    "$(inherited)",
+//                    "-Xcc",
+//                    "-DPIN_WEBP=1",
+//                    "-Xcc",
+//                    "-DAS_USE_ASSETS_LIBRARY=1",
+//                    "-Xcc",
+//                    "-DAS_USE_MAPKIT=1",
+//                    "-Xcc",
+//                    "-DAS_USE_PHOTOS=1",
+//                    "-Xcc",
+//                    "-DAS_USE_VIDEO=1",
+//                );
+
